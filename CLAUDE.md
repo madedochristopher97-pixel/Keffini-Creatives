@@ -115,3 +115,5 @@ Home, Projects, Contact, Thank You, Privacy.
 - Hero wave-gradient shader restored: `components/home/WaveGradient.tsx` (WebGL2, half-res, pauses off-screen) runs the exact fragment shader + settings from the original Framer `Hero.js` (`waveShader.ts`), fades in behind the photo when the hero expands; the photo is masked toward the left so the waves show through (my reading of the recording, tune the mask in heroIntro.css).
 
 - Lenis smooth scroll: `src/utils/SmoothScroll.tsx` (mounted in App.tsx, instance on `window.__lenis`, off for reduced-motion). It also owns scroll-to-top on every route change (retries while Framer content lays out) and #hash scrolling; RouterGlue only handles link clicks now. Home counters use flex + per-counter min-widths (auto grid overlapped labels).
+
+- Favicon: `public/favicon.svg` (maroon KF mark, from Downloads/Kf Maroon Favicon@2x.svg) linked in index.html; theme-color #65001e.
