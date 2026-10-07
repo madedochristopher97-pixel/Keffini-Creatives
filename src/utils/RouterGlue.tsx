@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 /**
  * Framer components render plain <a href="/path"> links. Turn internal ones into SPA navigations,
@@ -7,7 +7,6 @@ import { useLocation, useNavigate } from 'react-router-dom'
  */
 export default function RouterGlue() {
   const navigate = useNavigate()
-  const { pathname, hash } = useLocation()
 
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
@@ -23,11 +22,6 @@ export default function RouterGlue() {
     return () => document.removeEventListener('click', onClick, true)
   }, [navigate])
 
-  useEffect(() => {
-    if (!hash) { window.scrollTo(0, 0); return }
-    const t = setTimeout(() => document.getElementById(hash.slice(1))?.scrollIntoView({ behavior: 'smooth' }), 400)
-    return () => clearTimeout(t)
-  }, [pathname, hash])
 
   return null
 }

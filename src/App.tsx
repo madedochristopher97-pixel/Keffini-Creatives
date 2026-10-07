@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import CursorDot from "./components/layout/CursorDot"
+import SmoothScroll from "./utils/SmoothScroll"
 import RouterGlue from "./utils/RouterGlue"
 import Home from './pages/Home'
 import Projects from './pages/Projects'
@@ -13,6 +14,7 @@ export default function App() {
   return (
     <>
     <RouterGlue />
+    <SmoothScroll />
     <CursorDot />
     <Routes>
       <Route path="/" element={<Home />} />

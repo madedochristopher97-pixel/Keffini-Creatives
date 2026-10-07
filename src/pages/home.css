@@ -9,8 +9,10 @@
 .home-commitment__media { position: relative; aspect-ratio: 7 / 10; overflow: hidden; }
 .home-commitment__media > *, .home-commitment__media [class*="framer-"][class*="-v-"] { position: absolute !important; inset: 0; width: 100% !important; height: 100% !important; }
 .home-commitment__media img { width: 100% !important; height: 100% !important; object-fit: cover; display: block; }
-.home-counter { min-width: 0; }
-.home-counters { display: grid; grid-template-columns: repeat(3, auto); justify-content: start; gap: clamp(16px, 3vw, 56px); }
+.home-counter { min-width: 0; zoom: .88; }
+.home-counter:nth-child(1) { min-width: 252px; } .home-counter:nth-child(2) { min-width: 190px; } .home-counter:nth-child(3) { min-width: 220px; }
+/* flex (not auto grid): the count-up changes each counter width, so grid columns were sized too small and labels overlapped the next number */
+.home-counters { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 20px clamp(16px, 2.2vw, 32px); }
 .home-brands { max-width: 1440px; margin: 0 auto; padding: 0 clamp(16px, 3vw, 40px); height: 120px; overflow: hidden; }
 .home-works__head { display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; margin-bottom: clamp(24px, 4vw, 56px); }
 .home-works__intro { max-width: 380px; font-size: 14px; line-height: 1.45; }
@@ -26,8 +28,8 @@
 @media (max-width: 1023px) { .home-why__grid { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 767px) {
   .home-commitment { grid-template-columns: minmax(0, 1fr); }
-  .home-counters { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; }
-  .home-counter { zoom: .42; }
+  .home-counters { flex-wrap: nowrap; gap: 4px; }
+  .home-counter, .home-counter:nth-child(n) { zoom: .42; min-width: 0; }
   .home-works__head { flex-direction: column; align-items: flex-start; }
   .home-works__grid { grid-template-columns: minmax(0, 1fr); }
   .home-why__grid { grid-template-columns: minmax(0, 1fr); }

@@ -58,3 +58,9 @@ a { color: inherit; text-decoration: none; }
 .kc-brand--fom { height: 40px; width: 68px; filter: grayscale(1); }
 .kc-brand--cl { height: 42px; width: 86px; filter: invert(1) grayscale(1); } /* white lettering -> dark, gold -> grey */
 .kc-brand--iv { height: 34px; width: 74px; filter: grayscale(1); }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: clip; }
