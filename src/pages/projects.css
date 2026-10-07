@@ -1,0 +1,12 @@
+.projects { background: var(--kc-cream); min-height: 100vh; overflow-x: clip; }
+.projects__list { max-width: 1440px; margin: 0 auto; padding: 100px clamp(16px, 3vw, 40px) clamp(48px, 8vw, 120px); }
+.projects__list > div { width: 100%; }
+/* Framer heading is fixed-size and doesn't wrap on small screens */
+.projects__list h1.framer-text { font-size: clamp(40px, 11vw, 100px) !important; white-space: normal !important; width: 100% !important; text-align: center; }
+
+.projects__filters { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; padding: 96px clamp(16px, 3vw, 40px) 0; position: relative; z-index: 2; }
+.projects__filters + .projects__list { padding-top: 24px; }
+.projects__filters button { font: inherit; font-size: 15px; cursor: pointer; padding: 9px 22px; border: 1.5px solid var(--kc-ink); border-radius: 999px; background: transparent; color: var(--kc-ink); transition: background-color .25s ease, color .25s ease; }
+.projects__filters button:hover { background: rgba(10,10,10,.08); }
+.projects__filters button.is-active { background: var(--kc-ink); color: var(--kc-cream); }
+.projects__filters ~ .webp:first-of-type { padding-top: 32px; }

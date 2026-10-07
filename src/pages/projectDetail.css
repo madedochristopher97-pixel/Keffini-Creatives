@@ -1,0 +1,8 @@
+.project-detail { background: var(--kc-cream); min-height: 100vh; overflow-x: clip; }
+
+/* "Handles Link" button hover (matches Framer): fills black, text and arrow turn cream */
+.project-detail a.framer-j01zZ { transition: background-color .3s ease !important; }
+.project-detail a.framer-j01zZ:hover { background-color: var(--kc-ink) !important; }
+.project-detail a.framer-j01zZ:hover p, .project-detail a.framer-j01zZ:hover [class*="framer-text"] { color: var(--kc-cream) !important; --framer-text-color: var(--kc-cream) !important; }
+.project-detail a.framer-j01zZ:hover svg { color: var(--kc-cream) !important; fill: var(--kc-cream) !important; }
+.project-detail a.framer-j01zZ p, .project-detail a.framer-j01zZ svg { transition: color .3s ease, fill .3s ease !important; }

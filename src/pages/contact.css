@@ -1,0 +1,7 @@
+.contact { background: var(--kc-cream); min-height: 100vh; overflow-x: clip; }
+
+/* Phone variant: the "Start with a step" label and the form sit in a squeezed 2-col grid; stack them. */
+@media (max-width: 767px) {
+  .contact .framer-2x2bwp { grid-template-columns: minmax(0, 1fr) !important; gap: 16px !important; }
+  .contact .framer-kevz2f, .contact .framer-1cmenvn { width: 100% !important; }
+}

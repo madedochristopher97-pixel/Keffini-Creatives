@@ -1,0 +1,3 @@
+.cursor-dot { position: fixed; left: 0; top: 0; width: 12px; height: 12px; border-radius: 50%; background: #fff; mix-blend-mode: difference; pointer-events: none; z-index: 2147483000; opacity: 0; transition: opacity .25s ease; will-change: transform; }
+.cursor-dot.is-on { opacity: 1; }
+@media (hover: none), (pointer: coarse) { .cursor-dot { display: none; } }

@@ -1,0 +1,719 @@
+/* ===== Hero ===== */
+/**
+ * Project design tokens extracted from the Framer canvas.
+ * Import this file once at the root of your app so the
+ * --token-<uuid> CSS variables referenced by exported components resolve.
+ */
+
+/* Fallback @imports for families not covered by @font-face above. */
+/* These rely on Google Fonts publishing the family under the exact name; */
+/* will silently 404 for custom or non-Google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
+  --token-f29541d4-a784-41e4-8dc3-507539dde244: rgb(10, 10, 10);
+  --token-61554433-7bdb-4b29-9de8-221add126b06: rgb(254, 252, 239);
+  --token-90eb39eb-8ae7-4d64-805e-41357c9bae67: rgb(254, 252, 239);
+  --token-05c8fc94-9d88-4996-8c43-5ba6b09ba5c8: rgb(18, 10, 11);
+  --token-bbb602f6-358c-48d0-aed5-979534cdc97b: rgb(43, 43, 43);
+  --token-4fb4d07f-2ebb-440a-950e-b486fbf04d7b: rgb(43, 43, 43);
+  --token-8a650152-2d6e-46ea-8610-9e6ba7a473d7: rgb(101, 0, 30);
+  --token-36ee2a1e-0245-4ebd-b64e-c29cac1b6d1a: rgb(224, 224, 224);
+  --token-67ae1bcd-3120-4d2d-aa47-a9c62575b62b: rgba(255, 0, 38, 0.15);
+  --token-aacc1a20-8b57-48bb-8ac4-bdbac7db300a: rgb(255, 36, 36);
+  --token-58773525-ff09-4bcb-8c8e-542df27cf2f8: rgb(0, 128, 81);
+  --token-f904a4c4-590b-4e61-b24f-f415f8a86d2a: rgb(108, 36, 255);
+  --token-df87b371-c9bd-4340-9b07-e47969f39495: rgb(87, 3, 255);
+}
+
+.text-style-oplXOJmwI {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 190px;
+  line-height: 168px;
+  color: rgb(254, 252, 239);
+}
+.text-style-hM5LPVQMw {
+  font-family: 'Outfit', sans-serif;
+  font-size: 148px;
+  line-height: 140px;
+  color: rgb(101, 0, 30);
+}
+.text-style-zAYZkFN3f {
+  font-family: 'Outfit', sans-serif;
+  font-size: 84px;
+  line-height: 100%;
+  color: rgb(10, 10, 10);
+}
+.text-style-ORsURQZGk {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 106px;
+  line-height: 120px;
+  color: rgb(101, 0, 30);
+}
+.text-style-Ud050cgcT {
+  font-family: 'Outfit', sans-serif;
+  font-size: 70px;
+  line-height: 80px;
+  color: rgb(10, 10, 10);
+}
+.text-style-zqWcEoHvc {
+  font-family: 'Outfit', sans-serif;
+  font-size: 40px;
+  line-height: 0.7em;
+  color: rgb(10, 10, 10);
+}
+.text-style-sh8wTnxQI {
+  font-family: 'Outfit', sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(10, 10, 10);
+}
+.text-style-g0w5kwI66 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #000;
+}
+.text-style-dn4SBv53G {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xxYpVC2ns {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-YrK0iTyFl {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xQfEv3sH0 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  color: rgb(10, 10, 10);
+}
+
+/* ===== Projects ===== */
+/**
+ * Project design tokens extracted from the Framer canvas.
+ * Import this file once at the root of your app so the
+ * --token-<uuid> CSS variables referenced by exported components resolve.
+ */
+
+/* Fallback @imports for families not covered by @font-face above. */
+/* These rely on Google Fonts publishing the family under the exact name; */
+/* will silently 404 for custom or non-Google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
+  --token-f29541d4-a784-41e4-8dc3-507539dde244: rgb(10, 10, 10);
+  --token-61554433-7bdb-4b29-9de8-221add126b06: rgb(254, 252, 239);
+  --token-90eb39eb-8ae7-4d64-805e-41357c9bae67: rgb(254, 252, 239);
+  --token-05c8fc94-9d88-4996-8c43-5ba6b09ba5c8: rgb(18, 10, 11);
+  --token-bbb602f6-358c-48d0-aed5-979534cdc97b: rgb(43, 43, 43);
+  --token-4fb4d07f-2ebb-440a-950e-b486fbf04d7b: rgb(43, 43, 43);
+  --token-8a650152-2d6e-46ea-8610-9e6ba7a473d7: rgb(101, 0, 30);
+  --token-36ee2a1e-0245-4ebd-b64e-c29cac1b6d1a: rgb(224, 224, 224);
+  --token-67ae1bcd-3120-4d2d-aa47-a9c62575b62b: rgba(255, 0, 38, 0.15);
+  --token-aacc1a20-8b57-48bb-8ac4-bdbac7db300a: rgb(255, 36, 36);
+  --token-58773525-ff09-4bcb-8c8e-542df27cf2f8: rgb(0, 128, 81);
+  --token-f904a4c4-590b-4e61-b24f-f415f8a86d2a: rgb(108, 36, 255);
+  --token-df87b371-c9bd-4340-9b07-e47969f39495: rgb(87, 3, 255);
+}
+
+.text-style-oplXOJmwI {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 190px;
+  line-height: 168px;
+  color: rgb(254, 252, 239);
+}
+.text-style-hM5LPVQMw {
+  font-family: 'Outfit', sans-serif;
+  font-size: 148px;
+  line-height: 140px;
+  color: rgb(101, 0, 30);
+}
+.text-style-zAYZkFN3f {
+  font-family: 'Outfit', sans-serif;
+  font-size: 84px;
+  line-height: 100%;
+  color: rgb(10, 10, 10);
+}
+.text-style-ORsURQZGk {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 106px;
+  line-height: 120px;
+  color: rgb(101, 0, 30);
+}
+.text-style-Ud050cgcT {
+  font-family: 'Outfit', sans-serif;
+  font-size: 70px;
+  line-height: 80px;
+  color: rgb(10, 10, 10);
+}
+.text-style-zqWcEoHvc {
+  font-family: 'Outfit', sans-serif;
+  font-size: 40px;
+  line-height: 0.7em;
+  color: rgb(10, 10, 10);
+}
+.text-style-sh8wTnxQI {
+  font-family: 'Outfit', sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(10, 10, 10);
+}
+.text-style-g0w5kwI66 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #000;
+}
+.text-style-dn4SBv53G {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xxYpVC2ns {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-YrK0iTyFl {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xQfEv3sH0 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  color: rgb(10, 10, 10);
+}
+
+/* ===== Contact ===== */
+/**
+ * Project design tokens extracted from the Framer canvas.
+ * Import this file once at the root of your app so the
+ * --token-<uuid> CSS variables referenced by exported components resolve.
+ */
+
+/* Fallback @imports for families not covered by @font-face above. */
+/* These rely on Google Fonts publishing the family under the exact name; */
+/* will silently 404 for custom or non-Google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter%20Display:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
+  --token-f29541d4-a784-41e4-8dc3-507539dde244: rgb(10, 10, 10);
+  --token-61554433-7bdb-4b29-9de8-221add126b06: rgb(254, 252, 239);
+  --token-90eb39eb-8ae7-4d64-805e-41357c9bae67: rgb(254, 252, 239);
+  --token-05c8fc94-9d88-4996-8c43-5ba6b09ba5c8: rgb(18, 10, 11);
+  --token-bbb602f6-358c-48d0-aed5-979534cdc97b: rgb(43, 43, 43);
+  --token-4fb4d07f-2ebb-440a-950e-b486fbf04d7b: rgb(43, 43, 43);
+  --token-8a650152-2d6e-46ea-8610-9e6ba7a473d7: rgb(101, 0, 30);
+  --token-36ee2a1e-0245-4ebd-b64e-c29cac1b6d1a: rgb(224, 224, 224);
+  --token-67ae1bcd-3120-4d2d-aa47-a9c62575b62b: rgba(255, 0, 38, 0.15);
+  --token-aacc1a20-8b57-48bb-8ac4-bdbac7db300a: rgb(255, 36, 36);
+  --token-58773525-ff09-4bcb-8c8e-542df27cf2f8: rgb(0, 128, 81);
+  --token-f904a4c4-590b-4e61-b24f-f415f8a86d2a: rgb(108, 36, 255);
+  --token-df87b371-c9bd-4340-9b07-e47969f39495: rgb(87, 3, 255);
+}
+
+.text-style-oplXOJmwI {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 190px;
+  line-height: 168px;
+  color: rgb(254, 252, 239);
+}
+.text-style-hM5LPVQMw {
+  font-family: 'Outfit', sans-serif;
+  font-size: 148px;
+  line-height: 140px;
+  color: rgb(101, 0, 30);
+}
+.text-style-zAYZkFN3f {
+  font-family: 'Outfit', sans-serif;
+  font-size: 84px;
+  line-height: 100%;
+  color: rgb(10, 10, 10);
+}
+.text-style-ORsURQZGk {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 106px;
+  line-height: 120px;
+  color: rgb(101, 0, 30);
+}
+.text-style-Ud050cgcT {
+  font-family: 'Outfit', sans-serif;
+  font-size: 70px;
+  line-height: 80px;
+  color: rgb(10, 10, 10);
+}
+.text-style-zqWcEoHvc {
+  font-family: 'Outfit', sans-serif;
+  font-size: 40px;
+  line-height: 0.7em;
+  color: rgb(10, 10, 10);
+}
+.text-style-sh8wTnxQI {
+  font-family: 'Outfit', sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(10, 10, 10);
+}
+.text-style-g0w5kwI66 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #000;
+}
+.text-style-dn4SBv53G {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xxYpVC2ns {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-YrK0iTyFl {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xQfEv3sH0 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  color: rgb(10, 10, 10);
+}
+
+/* ===== ThankYou ===== */
+/**
+ * Project design tokens extracted from the Framer canvas.
+ * Import this file once at the root of your app so the
+ * --token-<uuid> CSS variables referenced by exported components resolve.
+ */
+
+/* Fallback @imports for families not covered by @font-face above. */
+/* These rely on Google Fonts publishing the family under the exact name; */
+/* will silently 404 for custom or non-Google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter%20Display:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
+  --token-f29541d4-a784-41e4-8dc3-507539dde244: rgb(10, 10, 10);
+  --token-61554433-7bdb-4b29-9de8-221add126b06: rgb(254, 252, 239);
+  --token-90eb39eb-8ae7-4d64-805e-41357c9bae67: rgb(254, 252, 239);
+  --token-05c8fc94-9d88-4996-8c43-5ba6b09ba5c8: rgb(18, 10, 11);
+  --token-bbb602f6-358c-48d0-aed5-979534cdc97b: rgb(43, 43, 43);
+  --token-4fb4d07f-2ebb-440a-950e-b486fbf04d7b: rgb(43, 43, 43);
+  --token-8a650152-2d6e-46ea-8610-9e6ba7a473d7: rgb(101, 0, 30);
+  --token-36ee2a1e-0245-4ebd-b64e-c29cac1b6d1a: rgb(224, 224, 224);
+  --token-67ae1bcd-3120-4d2d-aa47-a9c62575b62b: rgba(255, 0, 38, 0.15);
+  --token-aacc1a20-8b57-48bb-8ac4-bdbac7db300a: rgb(255, 36, 36);
+  --token-58773525-ff09-4bcb-8c8e-542df27cf2f8: rgb(0, 128, 81);
+  --token-f904a4c4-590b-4e61-b24f-f415f8a86d2a: rgb(108, 36, 255);
+  --token-df87b371-c9bd-4340-9b07-e47969f39495: rgb(87, 3, 255);
+}
+
+.text-style-oplXOJmwI {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 190px;
+  line-height: 168px;
+  color: rgb(254, 252, 239);
+}
+.text-style-hM5LPVQMw {
+  font-family: 'Outfit', sans-serif;
+  font-size: 148px;
+  line-height: 140px;
+  color: rgb(101, 0, 30);
+}
+.text-style-zAYZkFN3f {
+  font-family: 'Outfit', sans-serif;
+  font-size: 84px;
+  line-height: 100%;
+  color: rgb(10, 10, 10);
+}
+.text-style-ORsURQZGk {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 106px;
+  line-height: 120px;
+  color: rgb(101, 0, 30);
+}
+.text-style-Ud050cgcT {
+  font-family: 'Outfit', sans-serif;
+  font-size: 70px;
+  line-height: 80px;
+  color: rgb(10, 10, 10);
+}
+.text-style-zqWcEoHvc {
+  font-family: 'Outfit', sans-serif;
+  font-size: 40px;
+  line-height: 0.7em;
+  color: rgb(10, 10, 10);
+}
+.text-style-sh8wTnxQI {
+  font-family: 'Outfit', sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(10, 10, 10);
+}
+.text-style-g0w5kwI66 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #000;
+}
+.text-style-dn4SBv53G {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xxYpVC2ns {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-YrK0iTyFl {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xQfEv3sH0 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  color: rgb(10, 10, 10);
+}
+
+/* ===== Privacy ===== */
+/**
+ * Project design tokens extracted from the Framer canvas.
+ * Import this file once at the root of your app so the
+ * --token-<uuid> CSS variables referenced by exported components resolve.
+ */
+
+/* Fallback @imports for families not covered by @font-face above. */
+/* These rely on Google Fonts publishing the family under the exact name; */
+/* will silently 404 for custom or non-Google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter%20Display:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
+  --token-f29541d4-a784-41e4-8dc3-507539dde244: rgb(10, 10, 10);
+  --token-61554433-7bdb-4b29-9de8-221add126b06: rgb(254, 252, 239);
+  --token-90eb39eb-8ae7-4d64-805e-41357c9bae67: rgb(254, 252, 239);
+  --token-05c8fc94-9d88-4996-8c43-5ba6b09ba5c8: rgb(18, 10, 11);
+  --token-bbb602f6-358c-48d0-aed5-979534cdc97b: rgb(43, 43, 43);
+  --token-4fb4d07f-2ebb-440a-950e-b486fbf04d7b: rgb(43, 43, 43);
+  --token-8a650152-2d6e-46ea-8610-9e6ba7a473d7: rgb(101, 0, 30);
+  --token-36ee2a1e-0245-4ebd-b64e-c29cac1b6d1a: rgb(224, 224, 224);
+  --token-67ae1bcd-3120-4d2d-aa47-a9c62575b62b: rgba(255, 0, 38, 0.15);
+  --token-aacc1a20-8b57-48bb-8ac4-bdbac7db300a: rgb(255, 36, 36);
+  --token-58773525-ff09-4bcb-8c8e-542df27cf2f8: rgb(0, 128, 81);
+  --token-f904a4c4-590b-4e61-b24f-f415f8a86d2a: rgb(108, 36, 255);
+  --token-df87b371-c9bd-4340-9b07-e47969f39495: rgb(87, 3, 255);
+}
+
+.text-style-oplXOJmwI {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 190px;
+  line-height: 168px;
+  color: rgb(254, 252, 239);
+}
+.text-style-hM5LPVQMw {
+  font-family: 'Outfit', sans-serif;
+  font-size: 148px;
+  line-height: 140px;
+  color: rgb(101, 0, 30);
+}
+.text-style-zAYZkFN3f {
+  font-family: 'Outfit', sans-serif;
+  font-size: 84px;
+  line-height: 100%;
+  color: rgb(10, 10, 10);
+}
+.text-style-ORsURQZGk {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 106px;
+  line-height: 120px;
+  color: rgb(101, 0, 30);
+}
+.text-style-Ud050cgcT {
+  font-family: 'Outfit', sans-serif;
+  font-size: 70px;
+  line-height: 80px;
+  color: rgb(10, 10, 10);
+}
+.text-style-zqWcEoHvc {
+  font-family: 'Outfit', sans-serif;
+  font-size: 40px;
+  line-height: 0.7em;
+  color: rgb(10, 10, 10);
+}
+.text-style-sh8wTnxQI {
+  font-family: 'Outfit', sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(10, 10, 10);
+}
+.text-style-g0w5kwI66 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #000;
+}
+.text-style-dn4SBv53G {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xxYpVC2ns {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-YrK0iTyFl {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xQfEv3sH0 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  color: rgb(10, 10, 10);
+}
+
+/* ===== NotFound ===== */
+/**
+ * Project design tokens extracted from the Framer canvas.
+ * Import this file once at the root of your app so the
+ * --token-<uuid> CSS variables referenced by exported components resolve.
+ */
+
+/* Fallback @imports for families not covered by @font-face above. */
+/* These rely on Google Fonts publishing the family under the exact name; */
+/* will silently 404 for custom or non-Google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter%20Display:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
+  --token-f29541d4-a784-41e4-8dc3-507539dde244: rgb(10, 10, 10);
+  --token-61554433-7bdb-4b29-9de8-221add126b06: rgb(254, 252, 239);
+  --token-90eb39eb-8ae7-4d64-805e-41357c9bae67: rgb(254, 252, 239);
+  --token-05c8fc94-9d88-4996-8c43-5ba6b09ba5c8: rgb(18, 10, 11);
+  --token-bbb602f6-358c-48d0-aed5-979534cdc97b: rgb(43, 43, 43);
+  --token-4fb4d07f-2ebb-440a-950e-b486fbf04d7b: rgb(43, 43, 43);
+  --token-8a650152-2d6e-46ea-8610-9e6ba7a473d7: rgb(101, 0, 30);
+  --token-36ee2a1e-0245-4ebd-b64e-c29cac1b6d1a: rgb(224, 224, 224);
+  --token-67ae1bcd-3120-4d2d-aa47-a9c62575b62b: rgba(255, 0, 38, 0.15);
+  --token-aacc1a20-8b57-48bb-8ac4-bdbac7db300a: rgb(255, 36, 36);
+  --token-58773525-ff09-4bcb-8c8e-542df27cf2f8: rgb(0, 128, 81);
+  --token-f904a4c4-590b-4e61-b24f-f415f8a86d2a: rgb(108, 36, 255);
+  --token-df87b371-c9bd-4340-9b07-e47969f39495: rgb(87, 3, 255);
+}
+
+.text-style-oplXOJmwI {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 190px;
+  line-height: 168px;
+  color: rgb(254, 252, 239);
+}
+.text-style-hM5LPVQMw {
+  font-family: 'Outfit', sans-serif;
+  font-size: 148px;
+  line-height: 140px;
+  color: rgb(101, 0, 30);
+}
+.text-style-zAYZkFN3f {
+  font-family: 'Outfit', sans-serif;
+  font-size: 84px;
+  line-height: 100%;
+  color: rgb(10, 10, 10);
+}
+.text-style-ORsURQZGk {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 106px;
+  line-height: 120px;
+  color: rgb(101, 0, 30);
+}
+.text-style-Ud050cgcT {
+  font-family: 'Outfit', sans-serif;
+  font-size: 70px;
+  line-height: 80px;
+  color: rgb(10, 10, 10);
+}
+.text-style-zqWcEoHvc {
+  font-family: 'Outfit', sans-serif;
+  font-size: 40px;
+  line-height: 0.7em;
+  color: rgb(10, 10, 10);
+}
+.text-style-sh8wTnxQI {
+  font-family: 'Outfit', sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(10, 10, 10);
+}
+.text-style-g0w5kwI66 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #000;
+}
+.text-style-dn4SBv53G {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xxYpVC2ns {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-YrK0iTyFl {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xQfEv3sH0 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  color: rgb(10, 10, 10);
+}
+
+/* ===== Footer ===== */
+/**
+ * Project design tokens extracted from the Framer canvas.
+ * Import this file once at the root of your app so the
+ * --token-<uuid> CSS variables referenced by exported components resolve.
+ */
+
+/* Fallback @imports for families not covered by @font-face above. */
+/* These rely on Google Fonts publishing the family under the exact name; */
+/* will silently 404 for custom or non-Google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter%20Display:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
+  --token-f29541d4-a784-41e4-8dc3-507539dde244: rgb(10, 10, 10);
+  --token-61554433-7bdb-4b29-9de8-221add126b06: rgb(254, 252, 239);
+  --token-90eb39eb-8ae7-4d64-805e-41357c9bae67: rgb(254, 252, 239);
+  --token-05c8fc94-9d88-4996-8c43-5ba6b09ba5c8: rgb(18, 10, 11);
+  --token-bbb602f6-358c-48d0-aed5-979534cdc97b: rgb(43, 43, 43);
+  --token-4fb4d07f-2ebb-440a-950e-b486fbf04d7b: rgb(43, 43, 43);
+  --token-8a650152-2d6e-46ea-8610-9e6ba7a473d7: rgb(101, 0, 30);
+  --token-36ee2a1e-0245-4ebd-b64e-c29cac1b6d1a: rgb(224, 224, 224);
+  --token-67ae1bcd-3120-4d2d-aa47-a9c62575b62b: rgba(255, 0, 38, 0.15);
+  --token-aacc1a20-8b57-48bb-8ac4-bdbac7db300a: rgb(255, 36, 36);
+  --token-58773525-ff09-4bcb-8c8e-542df27cf2f8: rgb(0, 128, 81);
+  --token-f904a4c4-590b-4e61-b24f-f415f8a86d2a: rgb(108, 36, 255);
+  --token-df87b371-c9bd-4340-9b07-e47969f39495: rgb(87, 3, 255);
+}
+
+.text-style-oplXOJmwI {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 190px;
+  line-height: 168px;
+  color: rgb(254, 252, 239);
+}
+.text-style-hM5LPVQMw {
+  font-family: 'Outfit', sans-serif;
+  font-size: 148px;
+  line-height: 140px;
+  color: rgb(101, 0, 30);
+}
+.text-style-zAYZkFN3f {
+  font-family: 'Outfit', sans-serif;
+  font-size: 84px;
+  line-height: 100%;
+  color: rgb(10, 10, 10);
+}
+.text-style-ORsURQZGk {
+  font-family: 'Dr Boysk DEMO VERSION', sans-serif;
+  font-size: 106px;
+  line-height: 120px;
+  color: rgb(101, 0, 30);
+}
+.text-style-Ud050cgcT {
+  font-family: 'Outfit', sans-serif;
+  font-size: 70px;
+  line-height: 80px;
+  color: rgb(10, 10, 10);
+}
+.text-style-zqWcEoHvc {
+  font-family: 'Outfit', sans-serif;
+  font-size: 40px;
+  line-height: 0.7em;
+  color: rgb(10, 10, 10);
+}
+.text-style-sh8wTnxQI {
+  font-family: 'Outfit', sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(10, 10, 10);
+}
+.text-style-g0w5kwI66 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #000;
+}
+.text-style-dn4SBv53G {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xxYpVC2ns {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-YrK0iTyFl {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: rgb(10, 10, 10);
+}
+.text-style-xQfEv3sH0 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  color: rgb(10, 10, 10);
+}
+

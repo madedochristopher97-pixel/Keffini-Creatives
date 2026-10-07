@@ -1,0 +1,60 @@
+@import '@fontsource-variable/outfit/wght.css';
+
+/* Dr Boysk (display) – local demo font */
+@font-face {
+  font-family: 'Dr Boysk DEMO VERSION';
+  src: url('/fonts/Dr-Boysk-DEMO-VERSION-BF695f1f3b93a77.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dr Boysk DEMO VERSION Regular';
+  src: url('/fonts/Dr-Boysk-DEMO-VERSION-BF695f1f3b93a77.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* Everything else is Outfit. Alias the old Inter names to the Outfit variable font so no Inter ever renders. */
+@font-face {
+  font-family: 'Outfit';
+  src: url('@fontsource-variable/outfit/files/outfit-latin-wght-normal.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('@fontsource-variable/outfit/files/outfit-latin-wght-normal.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter Display';
+  src: url('@fontsource-variable/outfit/files/outfit-latin-wght-normal.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --kc-cream: #fefcef;
+  --kc-burgundy: #65001e;
+  --kc-ink: #0a0a0a;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--kc-cream); color: var(--kc-ink); }
+body { font-family: 'Outfit', sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+
+/* Card/Works Wide (Projects page, "More works"): the Framer hover zooms the thumbnail 1.1x and slides the caption bar up.
+   The class-based bar slide works in the port, the motion-variant image zoom does not, so do it in CSS. */
+.framer-yAaoZ .framer-zklqiq { transition: transform .8s cubic-bezier(.22, 1, .36, 1) !important; }
+.framer-yAaoZ:hover .framer-zklqiq { transform: scale(1.1) !important; }
+.framer-yAaoZ .framer-1evbvcr { transition: bottom .4s cubic-bezier(.22, 1, .36, 1); }
+
+
+/* Client logos added to the Home brands ticker (Brands.js): sized to sit with the others, forced to grey */
+.kc-brand { flex: none; position: relative; opacity: .6; }
+.kc-brand--sq { height: 34px; width: 70px; filter: grayscale(1); }
+.kc-brand--fom { height: 40px; width: 68px; filter: grayscale(1); }
+.kc-brand--cl { height: 42px; width: 86px; filter: invert(1) grayscale(1); } /* white lettering -> dark, gold -> grey */
+.kc-brand--iv { height: 34px; width: 74px; filter: grayscale(1); }

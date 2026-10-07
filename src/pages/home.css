@@ -1,0 +1,49 @@
+.home { position: relative; background: var(--kc-cream); overflow-x: clip; }
+.home-hero { position: relative; }
+.home-section { width: 100%; max-width: 1440px; margin: 0 auto; padding: clamp(48px, 7vw, 112px) clamp(16px, 3vw, 40px); }
+.home-h2 { font-family: 'Outfit', sans-serif; font-weight: 500; font-size: clamp(32px, 4.2vw, 64px); line-height: 1.05; letter-spacing: -.02em; margin: 24px 0; }
+.home-display { font-family: 'Dr Boysk DEMO VERSION', sans-serif; font-weight: 400; font-size: clamp(56px, 9vw, 150px); line-height: .9; margin: 16px 0 0; }
+.home-display--light { color: var(--kc-cream); }
+.home-lede { font-size: 15px; line-height: 1.45; max-width: 46ch; margin: 0 0 32px; }
+.home-commitment { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(24px, 5vw, 96px); align-items: center; }
+.home-commitment__media { position: relative; aspect-ratio: 7 / 10; overflow: hidden; }
+.home-commitment__media > *, .home-commitment__media [class*="framer-"][class*="-v-"] { position: absolute !important; inset: 0; width: 100% !important; height: 100% !important; }
+.home-commitment__media img { width: 100% !important; height: 100% !important; object-fit: cover; display: block; }
+.home-counter { min-width: 0; }
+.home-counters { display: grid; grid-template-columns: repeat(3, auto); justify-content: start; gap: clamp(16px, 3vw, 56px); }
+.home-brands { max-width: 1440px; margin: 0 auto; padding: 0 clamp(16px, 3vw, 40px); height: 120px; overflow: hidden; }
+.home-works__head { display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; margin-bottom: clamp(24px, 4vw, 56px); }
+.home-works__intro { max-width: 380px; font-size: 14px; line-height: 1.45; }
+.home-pill { display: inline-flex; gap: 8px; margin-top: 16px; padding: 8px 16px; border: 1.5px solid var(--kc-ink); border-radius: 999px; font-size: 12px; font-weight: 500; text-transform: uppercase; }
+.home-works__grid > * { width: 100% !important; }
+.home-works__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(16px, 2vw, 32px); }
+.home-why__head { margin-bottom: 40px; }
+.home-why__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(16px, 2vw, 32px); }
+.home-services { background: var(--kc-burgundy); color: var(--kc-cream); }
+.home-faq__head { margin-bottom: 40px; }
+.home-faq__list { display: flex; flex-direction: column; max-width: 900px; margin-left: auto; }
+.home-sub--invert { filter: invert(1); }
+@media (max-width: 1023px) { .home-why__grid { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 767px) {
+  .home-commitment { grid-template-columns: minmax(0, 1fr); }
+  .home-counters { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; }
+  .home-counter { zoom: .42; }
+  .home-works__head { flex-direction: column; align-items: flex-start; }
+  .home-works__grid { grid-template-columns: minmax(0, 1fr); }
+  .home-why__grid { grid-template-columns: minmax(0, 1fr); }
+}
+.home-ratecard { background: var(--kc-cream); overflow-x: clip; }
+
+/* Phone variant squeezes the 3 plan / 3 onboarding cards into 93px columns: stack them (Framer class hashes) */
+@media (max-width: 767px) {
+  .home-ratecard .framer-146gqai, .home-ratecard .framer-uu27qt { grid-template-columns: minmax(0, 1fr) !important; }
+  .home-ratecard .framer-146gqai > *, .home-ratecard .framer-uu27qt > * { width: 100% !important; }
+}
+
+/* Latest Works hover: Framer turns the centred "Line" band white (works in the port) and scales/fades the category text in
+   (motion variant on a RichText, which does not fire in the port), so reveal the text with CSS. The text uses mix-blend-mode: difference, so it reads black on the white band. */
+.home-works__grid a .framer-f25iei { transition: opacity .3s ease, transform .35s cubic-bezier(.22, 1, .36, 1) !important; }
+.home-works__grid a:hover .framer-f25iei { opacity: 1 !important; transform: none !important; }
+.home-works__grid a .framer-12i5nxz { padding: 4px 0; transition: background-color .3s ease; }
+.home-works__grid a:hover .framer-12i5nxz { background-color: #fff !important; }
+.home-works__grid a .framer-12i5nxz { transition: background-color .3s ease !important; }
