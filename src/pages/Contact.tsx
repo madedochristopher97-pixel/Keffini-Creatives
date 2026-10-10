@@ -5,14 +5,13 @@ import Footer from '../components/framer/Footer'
 import { useBreakpoint } from '../components/framer/_responsive-runtime.js'
 import { useScrollReveal } from '../utils/effects/useScrollReveal'
 import { useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
 import { attachContactForm } from '../utils/contactForm'
+import { transitionTo } from '../utils/PageTransition'
 import './contact.css'
 
 export default function Contact() {
   useScrollReveal()
-  const navigate = useNavigate()
-  useEffect(() => attachContactForm(navigate, '.contact'), [navigate])
+  useEffect(() => attachContactForm(transitionTo, '.contact'), [])
   const bp = useBreakpoint()
   const mobile = bp === 'base' || bp === 'sm'
   const tablet = bp === 'md'

@@ -1,0 +1,4 @@
+/* Blinds wipe between routes (see PageTransition.tsx). Sits under the cursor dot, above everything else. */
+.page-transition { position: fixed; inset: 0; z-index: 2147482000; pointer-events: none; visibility: hidden; overflow: hidden; }
+.page-transition.is-active { visibility: visible; pointer-events: auto; }
+.page-transition__bar { position: absolute; left: 0; right: 0; background: var(--pt-color, #650020); transform: scaleY(0); will-change: transform; }

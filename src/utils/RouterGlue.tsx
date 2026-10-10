@@ -1,13 +1,11 @@
 import { useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { transitionTo } from './PageTransition'
 
 /**
- * Framer components render plain <a href="/path"> links. Turn internal ones into SPA navigations,
- * and handle scroll position / #hash targets on route changes.
+ * Framer components render plain <a href="/path"> links. Turn internal ones into SPA navigations
+ * (with the blinds page transition); scroll / #hash handling lives in SmoothScroll.
  */
 export default function RouterGlue() {
-  const navigate = useNavigate()
-
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
       if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return
@@ -16,12 +14,11 @@ export default function RouterGlue() {
       const href = a.getAttribute('href') || ''
       if (!href.startsWith('/') || href.startsWith('//')) return
       e.preventDefault()
-      navigate(href)
+      transitionTo(href)
     }
     document.addEventListener('click', onClick, true)
     return () => document.removeEventListener('click', onClick, true)
-  }, [navigate])
-
+  }, [])
 
   return null
 }

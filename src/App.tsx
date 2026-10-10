@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import CursorDot from "./components/layout/CursorDot"
 import SmoothScroll from "./utils/SmoothScroll"
 import RouterGlue from "./utils/RouterGlue"
+import PageTransition from "./utils/PageTransition"
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import ProjectDetail from "./pages/ProjectDetail"
@@ -15,6 +16,7 @@ export default function App() {
     <>
     <RouterGlue />
     <SmoothScroll />
+    <PageTransition />
     <CursorDot />
     <Routes>
       <Route path="/" element={<Home />} />
