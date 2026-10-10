@@ -39,6 +39,9 @@
   --kc-cream: #fefcef;
   --kc-burgundy: #65001e;
   --kc-ink: #0a0a0a;
+  /* WhatsApp touchpoints: the palette green, darkened to pass AA on cream; lighter variant for burgundy backgrounds. */
+  --kc-wa: #0f7a43;
+  --kc-wa-light: #4cc77e;
 }
 *, *::before, *::after { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; background: var(--kc-cream); color: var(--kc-ink); }

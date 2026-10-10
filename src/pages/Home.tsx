@@ -13,6 +13,7 @@ import Brands from '../components/framer/Brands'
 import CardWorks from '../components/framer/CardWorks'
 import ServiceList from '../components/framer/ServiceList'
 import RateCard from '../components/framer/RateCard'
+import CustomPackageBrief from '../components/home/CustomPackageBrief'
 import Faq from '../components/framer/Faq'
 import Footer from '../components/framer/Footer'
 import { useBreakpoint } from '../components/framer/_responsive-runtime.js'
@@ -68,6 +69,15 @@ export default function Home() {
   const bp = useBreakpoint()
   const mobile = bp === 'base' || bp === 'sm'
   const tablet = bp === 'md'
+  const [briefOpen, setBriefOpen] = useState(false)
+
+  // The Rate Card's "Custom package available" card is a Framer link to "./"; open the onboarding brief instead.
+  const onRatesClick = (e) => {
+    if (!(e.target as HTMLElement).closest('[data-framer-name="Custom Package"]')) return
+    e.preventDefault()
+    e.stopPropagation()
+    setBriefOpen(true)
+  }
 
   return (
     <main className="home">
@@ -121,7 +131,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="home-ratecard" id="rates"><RateCard variant={mobile ? 'Phone' : tablet ? 'Tablet' : 'Desktop'} /></section>
+      <section className="home-ratecard" id="rates" onClickCapture={onRatesClick}><RateCard variant={mobile ? 'Phone' : tablet ? 'Tablet' : 'Desktop'} /></section>
+      {briefOpen && <CustomPackageBrief onClose={() => setBriefOpen(false)} />}
 
       <section className="home-section home-faq" id="faq">
         <div className="home-faq__head">

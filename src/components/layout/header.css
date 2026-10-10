@@ -21,8 +21,14 @@
 .kc-menu__nav a { font-family: 'Outfit', sans-serif; font-size: clamp(32px, 5vw, 68px); font-weight: 600; line-height: 1.05; }
 .kc-menu__nav a span { font-size: .55em; margin-left: 12px; font-weight: 400; }
 
+.kc-menu__info .kc-menu__wa dt { color: var(--kc-wa-light); display: flex; align-items: center; gap: 8px; }
+.kc-menu__wa dt::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--kc-wa-light); flex: none; }
+.kc-menu__wa a:hover { text-decoration: underline; text-underline-offset: 4px; }
+
 @media (max-width: 767px) {
-  .kc-menu__info { display: none; }
+  /* Phones drop the contact details but keep the WhatsApp line. */
+  .kc-menu__info > div:not(.kc-menu__wa) { display: none; }
+  .kc-menu__info { margin: 0; }
   .kc-menu__top { justify-content: space-between; }
   .kc-menu__body { flex-direction: column; align-items: stretch; justify-content: flex-start; }
   .kc-menu__nav { align-items: flex-start; order: -1; margin-top: 24px; }

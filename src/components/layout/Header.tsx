@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { waLink, WHATSAPP_DISPLAY } from '../../utils/enquiry'
 import './header.css'
 
 const NAV = [
@@ -49,6 +50,7 @@ export default function Header({ tone = 'dark' }: { tone?: 'dark' | 'light' }) {
           <dl className="kc-menu__info">
             <div><dt>Email</dt><dd>Hello@keffini.com</dd></div>
             <div><dt>Phone</dt><dd>+(254)794 388 578</dd></div>
+            <div className="kc-menu__wa"><dt>WhatsApp</dt><dd><a href={waLink()} target="_blank" rel="noopener noreferrer">{WHATSAPP_DISPLAY} <span aria-hidden="true">↗</span></a></dd></div>
             <div><dt>Location</dt><dd>Based in Nairobi</dd></div>
           </dl>
           <button className="kc-close" aria-label="Close menu" onClick={() => setOpen(false)}>

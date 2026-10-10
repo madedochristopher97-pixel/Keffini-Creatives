@@ -1,0 +1,8 @@
+.wa-strip { background: var(--kc-cream); color: var(--kc-ink); padding: clamp(48px, 7vw, 96px) clamp(16px, 3vw, 40px); border-top: 1px solid rgba(10, 10, 10, .15); display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px 48px; }
+.wa-strip__label { margin: 0; font-size: 16px; font-weight: 600; }
+.wa-strip__link { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.wa-strip__num { font-family: 'Outfit', sans-serif; font-weight: 500; font-size: clamp(32px, 5vw, 72px); line-height: 1; letter-spacing: -.02em; }
+.wa-strip__cta { font-size: 16px; font-weight: 600; color: var(--kc-wa); text-decoration: underline; text-underline-offset: 4px; }
+.wa-strip__cta::before { content: ''; display: inline-block; width: 8px; height: 8px; margin-right: 8px; border-radius: 50%; background: var(--kc-wa); vertical-align: .08em; }
+.wa-strip__link:hover .wa-strip__cta { text-decoration-thickness: 2px; }
+.wa-strip__link:focus-visible { outline: 2px solid var(--kc-wa); outline-offset: 6px; }

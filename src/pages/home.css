@@ -36,6 +36,12 @@
 }
 .home-ratecard { background: var(--kc-cream); overflow-x: clip; }
 
+/* "Custom package available" opens the onboarding brief (see Home.tsx): give the card a visible call to action. */
+.home-ratecard [data-framer-name="Custom Package"] { cursor: pointer; transition: background-color .25s ease, color .25s ease; }
+/* (::after is Framer's border layer, so the label uses ::before pushed to the end with order.) */
+.home-ratecard [data-framer-name="Custom Package"]::before { content: 'Build your custom package ↗'; order: 9; padding-top: 8px; font-size: 16px; font-weight: 600; color: var(--kc-burgundy); text-decoration: underline; text-underline-offset: 4px; }
+.home-ratecard [data-framer-name="Custom Package"]:hover { background-color: rgba(101, 0, 30, .05) !important; }
+
 /* Phone variant squeezes the 3 plan / 3 onboarding cards into 93px columns: stack them (Framer class hashes) */
 @media (max-width: 767px) {
   .home-ratecard .framer-146gqai, .home-ratecard .framer-uu27qt { grid-template-columns: minmax(0, 1fr) !important; }

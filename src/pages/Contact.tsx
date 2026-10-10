@@ -2,6 +2,7 @@
 import Header from '../components/layout/Header'
 import Contact2 from '../components/framer/Contact2'
 import Footer from '../components/framer/Footer'
+import WhatsAppStrip from '../components/layout/WhatsAppStrip'
 import { useBreakpoint } from '../components/framer/_responsive-runtime.js'
 import { useScrollReveal } from '../utils/effects/useScrollReveal'
 import { useEffect } from 'react'
@@ -19,6 +20,7 @@ export default function Contact() {
     <main className="contact">
       <Header tone="light" />
       <Contact2 variant={mobile ? 'Phone' : tablet ? 'Tablet' : 'Desktop'} />
+      <WhatsAppStrip />
       <Footer variant={mobile ? 'Phone' : tablet ? 'Tablet' : 'Desktop'} />
     </main>
   )
