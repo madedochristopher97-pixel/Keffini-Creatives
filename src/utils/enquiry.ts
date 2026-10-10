@@ -1,7 +1,13 @@
-/** Shared contact details + delivery for enquiries that don't go through the Framer contact form. */
+/** Shared contact details + delivery for every client form (contact page + custom package brief). */
 
-const ENDPOINT = import.meta.env.VITE_CONTACT_ENDPOINT as string | undefined
+/** Inbox that receives client enquiries. */
+export const INBOX_EMAIL = 'keffinicreativestudio@gmail.com'
+/** Public address shown to visitors (fallback when sending fails). */
 export const CONTACT_EMAIL = 'Hello@keffini.com'
+
+// FormSubmit (no account needed) relays the JSON to INBOX_EMAIL. The first submission after deploy triggers a one-time
+// activation email to that inbox. Set VITE_CONTACT_ENDPOINT (e.g. a Formspree URL) to use a different relay.
+const ENDPOINT = (import.meta.env.VITE_CONTACT_ENDPOINT as string | undefined) || `https://formsubmit.co/ajax/${INBOX_EMAIL}`
 
 // +254 112 896216 (international format, digits only, as wa.me expects)
 export const WHATSAPP_NUMBER = '254112896216'
@@ -13,25 +19,30 @@ export function waLink(text: string = WHATSAPP_GREETING) {
 }
 
 /**
- * Sends a plain-text enquiry. Posts JSON to VITE_CONTACT_ENDPOINT when set (same endpoint the contact form
- * uses); otherwise opens a mailto: draft to Hello@keffini.com. Resolves with how it was delivered.
+ * Emails an enquiry to the studio inbox. `email` doubles as the reply-to; `fields` become labelled rows in the
+ * email (insertion order). Throws if delivery fails so callers can show a fallback.
  */
 export async function submitEnquiry(opts: {
   subject: string
   name: string
   email: string
-  message: string
-  extra?: Record<string, string>
-}): Promise<'sent' | 'draft'> {
-  if (ENDPOINT) {
-    const res = await fetch(ENDPOINT, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ subject: opts.subject, name: opts.name, email: opts.email, message: opts.message, ...opts.extra }),
-    })
-    if (!res.ok) throw new Error(`Form endpoint responded ${res.status}`)
-    return 'sent'
+  fields?: Record<string, string>
+}): Promise<void> {
+  const res = await fetch(ENDPOINT, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+    body: JSON.stringify({
+      _subject: opts.subject,
+      _template: 'table',
+      _captcha: 'false',
+      _honey: '',
+      name: opts.name,
+      email: opts.email,
+      ...opts.fields,
+    }),
+  })
+  const data = await res.json().catch(() => ({}))
+  if (!res.ok || data.success === 'false' || data.success === false) {
+    throw new Error(`Enquiry endpoint rejected the submission (${res.status}): ${data.message ?? 'no message'}`)
   }
-  window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(opts.subject)}&body=${encodeURIComponent(opts.message)}`
-  return 'draft'
 }

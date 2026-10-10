@@ -68,7 +68,18 @@
 .brief__link { background: none; border: 0; padding: 8px 0; font: inherit; font-size: 16px; font-weight: 500; color: inherit; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; }
 .brief__link:disabled { visibility: hidden; }
 .brief__actions { display: flex; align-items: center; flex-wrap: wrap; gap: 24px; }
-.brief__done .brief__hint { margin-bottom: 32px; }
+
+/* Success screen */
+.brief__done .brief__hint { margin-bottom: 40px; }
+.brief__done .brief__hint strong { color: var(--kc-ink); font-weight: 600; overflow-wrap: anywhere; }
+.brief__recap { margin-bottom: 40px; }
+.brief__recap dl { margin: 0; border-top: 1px solid rgba(10, 10, 10, .15); }
+.brief__recap dl > div { display: grid; grid-template-columns: minmax(120px, 28%) minmax(0, 1fr); gap: 16px; padding: 12px 0; border-bottom: 1px solid rgba(10, 10, 10, .15); }
+.brief__recap dt { font-size: 16px; font-weight: 600; }
+.brief__recap dd { margin: 0; font-size: 16px; line-height: 1.4; overflow-wrap: anywhere; }
+.brief__faster { margin-bottom: 40px; }
+.brief__faster .brief__label { margin-bottom: 4px; }
+.brief__faster .brief__hint { margin-bottom: 16px; }
 
 @media (max-width: 899px) {
   .brief { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); }

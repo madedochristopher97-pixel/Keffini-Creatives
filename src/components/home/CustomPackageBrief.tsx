@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { submitEnquiry, waLink } from '../../utils/enquiry'
+import { CONTACT_EMAIL, submitEnquiry, waLink } from '../../utils/enquiry'
 import './customPackageBrief.css'
 
 type Field =
@@ -117,10 +117,15 @@ const LABELS: [string, string][] = [
   ['name', 'Name'], ['email', 'Email'], ['phone', 'Phone'], ['channel', 'Prefers'],
 ]
 
+const valueOf = (a: Answers, k: string) => (Array.isArray(a[k]) ? (a[k] as string[]).join(', ') : ((a[k] as string) ?? '').trim())
+
+/** Filled-in answers as [label, value] rows, in question order. `skip` drops keys sent elsewhere (name, email). */
+function rowsOf(a: Answers, skip: string[] = []) {
+  return LABELS.filter(([k]) => !skip.includes(k) && valueOf(a, k)).map(([k, l]) => [l, valueOf(a, k)] as [string, string])
+}
+
 function summarise(a: Answers) {
-  const val = (k: string) => (Array.isArray(a[k]) ? (a[k] as string[]).join(', ') : ((a[k] as string) ?? '').trim())
-  const lines = LABELS.map(([k, l]) => (val(k) ? `${l}: ${val(k)}` : '')).filter(Boolean)
-  return `Hi Keffini, here is my custom package brief.\n\n${lines.join('\n')}`
+  return `Hi Keffini, here is my custom package brief.\n\n${rowsOf(a).map(([l, v]) => `${l}: ${v}`).join('\n')}`
 }
 
 function loadDraft(): Answers {
@@ -142,7 +147,7 @@ export default function CustomPackageBrief({ onClose }: { onClose: () => void })
   const [answers, setAnswers] = useState<Answers>(loadDraft)
   const [step, setStep] = useState(0)
   const [errors, setErrors] = useState<Record<string, string>>({})
-  const [phase, setPhase] = useState<'form' | 'sending' | 'sent' | 'draft'>('form')
+  const [phase, setPhase] = useState<'form' | 'sending' | 'sent'>('form')
   const [failed, setFailed] = useState(false)
   const root = useRef<HTMLDivElement>(null)
   const heading = useRef<HTMLHeadingElement>(null)
@@ -204,14 +209,14 @@ export default function CustomPackageBrief({ onClose }: { onClose: () => void })
     setPhase('sending')
     setFailed(false)
     try {
-      const how = await submitEnquiry({
-        subject: `Custom package brief: ${answers.brand ?? ''}`.trim(),
-        name: (answers.name as string) ?? '',
-        email: (answers.email as string) ?? '',
-        message,
+      await submitEnquiry({
+        subject: `Custom package brief: ${valueOf(answers, 'brand')}`.trim(),
+        name: valueOf(answers, 'name'),
+        email: valueOf(answers, 'email'),
+        fields: Object.fromEntries(rowsOf(answers, ['name', 'email'])),
       })
       try { sessionStorage.removeItem(DRAFT_KEY) } catch { /* ignore */ }
-      setPhase(how)
+      setPhase('sent')
     } catch (err) {
       console.error(err)
       setFailed(true)
@@ -219,7 +224,8 @@ export default function CustomPackageBrief({ onClose }: { onClose: () => void })
     }
   }
 
-  const done = phase === 'sent' || phase === 'draft'
+  const done = phase === 'sent'
+  const firstName = valueOf(answers, 'name').split(/\s+/)[0]
 
   return (
     <div ref={root} className="brief" role="dialog" aria-modal="true" aria-labelledby="brief-title">
@@ -245,16 +251,30 @@ export default function CustomPackageBrief({ onClose }: { onClose: () => void })
 
         {done ? (
           <div className="brief__scroll" data-lenis-prevent>
-            <div className="brief__inner brief__done">
-              <h2 ref={heading} tabIndex={-1} className="brief__q">{phase === 'sent' ? 'Thank you. We have your brief.' : 'Your email draft is ready.'}</h2>
+            <div className="brief__inner brief__done" role="status">
+              <p className="brief__count">Brief sent</p>
+              <h2 ref={heading} tabIndex={-1} className="brief__q">{firstName ? `Thank you, ${firstName}.` : 'Thank you.'} We have your brief.</h2>
               <p className="brief__hint">
-                {phase === 'sent'
-                  ? 'We will review it and come back with a scoped plan and a quote.'
-                  : 'We opened your email app with the brief filled in. Press send there and it reaches us.'}
+                We will review it and reply to <strong>{valueOf(answers, 'email')}</strong> with a scoped plan and a quote.
               </p>
-              <div className="brief__actions">
+
+              <section className="brief__recap" aria-label="Your brief">
+                <h3 className="brief__label">What you sent us</h3>
+                <dl>
+                  {rowsOf(answers, ['name', 'email']).map(([l, v]) => (
+                    <div key={l}><dt>{l}</dt><dd>{v}</dd></div>
+                  ))}
+                </dl>
+              </section>
+
+              <div className="brief__faster">
+                <p className="brief__label">Need an answer sooner?</p>
+                <p className="brief__hint">Send the same brief on WhatsApp and we can pick it up from there.</p>
                 <a className="brief__btn brief__btn--wa" href={waLink(message)} target="_blank" rel="noopener noreferrer">Continue on WhatsApp <span aria-hidden="true">↗</span></a>
-                <button type="button" className="brief__link" onClick={onClose}>Back to the site</button>
+              </div>
+
+              <div className="brief__actions">
+                <button type="button" className="brief__btn" onClick={onClose}>Back to the site</button>
               </div>
             </div>
           </div>
@@ -315,7 +335,11 @@ export default function CustomPackageBrief({ onClose }: { onClose: () => void })
                   )
                 })}
 
-                {failed && <p className="brief__error" role="alert">Something went wrong sending your brief. Please try again, or use WhatsApp below.</p>}
+                {failed && (
+                  <p className="brief__error" role="alert">
+                    We could not send your brief just now. Please try again, send it on WhatsApp, or email {CONTACT_EMAIL}.
+                  </p>
+                )}
               </div>
             </div>
 
