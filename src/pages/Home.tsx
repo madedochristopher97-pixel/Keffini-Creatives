@@ -21,6 +21,14 @@ import { useBreakpoint } from '../components/framer/_responsive-runtime.js'
 import { useScrollReveal } from '../utils/effects/useScrollReveal'
 import './home.css'
 
+const FAQS = [
+  ['What’s your typical turnaround time?', 'Most branding projects take 3–6 weeks, while websites and digital products typically take 4–10 weeks depending on scope. We share a clear timeline before we start.'],
+  ['Do you offer custom design solutions?', 'Yes. Every project is designed from scratch around your brand, audience and goals — no templates.'],
+  ['What industries do you specialize in?', 'We work across fashion, hospitality, beauty, lifestyle, education and technology, helping brands of every size show up with clarity.'],
+  ['Can you handle both design and development?', 'Absolutely. Our team covers brand identity, UI/UX and full-stack development, so you work with one studio from concept to launch.'],
+  ['Do you provide post-launch support?', 'Yes. We offer ongoing maintenance, updates and growth support after launch so your brand keeps performing.'],
+]
+
 const HOME_SCHEMA = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -80,13 +88,6 @@ const WORKS = [
   { slug: 'ivory-horizons-tours', title: 'Ivory Horizons Tours - Travel Brand', category: 'Branding & Social Media', year: '2026' },
 ]
 
-const FAQS = [
-  ['What’s your typical turnaround time?', 'Most branding projects take 3–6 weeks, while websites and digital products typically take 4–10 weeks depending on scope. We share a clear timeline before we start.'],
-  ['Do you offer custom design solutions?', 'Yes. Every project is designed from scratch around your brand, audience and goals — no templates.'],
-  ['What industries do you specialize in?', 'We work across fashion, hospitality, beauty, lifestyle, education and technology, helping brands of every size show up with clarity.'],
-  ['Can you handle both design and development?', 'Absolutely. Our team covers brand identity, UI/UX and full-stack development, so you work with one studio from concept to launch.'],
-  ['Do you provide post-launch support?', 'Yes. We offer ongoing maintenance, updates and growth support after launch so your brand keeps performing.'],
-]
 
 // The ImageLoopCard has 5 image slots/variants (image1..5 = bNIxmSYTX, CXo7fyVBS, YzLWPJL0x, Hu6fn5bt1, UhE81XPkg).
 // We have 6 photos, so each tick puts the next photo into the slot of the variant being shown.
