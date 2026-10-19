@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import CursorDot from "./components/layout/CursorDot"
+import KeffiniAssistant from "./components/chat/KeffiniAssistant"
 import SmoothScroll from "./utils/SmoothScroll"
 import RouterGlue from "./utils/RouterGlue"
 import PageTransition from "./utils/PageTransition"
@@ -18,6 +19,7 @@ export default function App() {
     <SmoothScroll />
     <PageTransition />
     <CursorDot />
+    <KeffiniAssistant />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />

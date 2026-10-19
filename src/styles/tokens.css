@@ -8,7 +8,7 @@
 /* Fallback @imports for families not covered by @font-face above. */
 /* These rely on Google Fonts publishing the family under the exact name; */
 /* will silently 404 for custom or non-Google fonts. */
-@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
+/* font loaded in global.css / index.html */
 
 :root {
   --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
@@ -110,7 +110,7 @@
 /* Fallback @imports for families not covered by @font-face above. */
 /* These rely on Google Fonts publishing the family under the exact name; */
 /* will silently 404 for custom or non-Google fonts. */
-@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
+/* font loaded in global.css / index.html */
 
 :root {
   --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
@@ -212,8 +212,8 @@
 /* Fallback @imports for families not covered by @font-face above. */
 /* These rely on Google Fonts publishing the family under the exact name; */
 /* will silently 404 for custom or non-Google fonts. */
-@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter%20Display:wght@300;400;500;600;700;800&display=swap');
+/* font loaded in global.css / index.html */
+/* font loaded in global.css / index.html */
 
 :root {
   --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
@@ -315,8 +315,8 @@
 /* Fallback @imports for families not covered by @font-face above. */
 /* These rely on Google Fonts publishing the family under the exact name; */
 /* will silently 404 for custom or non-Google fonts. */
-@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter%20Display:wght@300;400;500;600;700;800&display=swap');
+/* font loaded in global.css / index.html */
+/* font loaded in global.css / index.html */
 
 :root {
   --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
@@ -418,8 +418,8 @@
 /* Fallback @imports for families not covered by @font-face above. */
 /* These rely on Google Fonts publishing the family under the exact name; */
 /* will silently 404 for custom or non-Google fonts. */
-@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter%20Display:wght@300;400;500;600;700;800&display=swap');
+/* font loaded in global.css / index.html */
+/* font loaded in global.css / index.html */
 
 :root {
   --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
@@ -521,8 +521,8 @@
 /* Fallback @imports for families not covered by @font-face above. */
 /* These rely on Google Fonts publishing the family under the exact name; */
 /* will silently 404 for custom or non-Google fonts. */
-@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter%20Display:wght@300;400;500;600;700;800&display=swap');
+/* font loaded in global.css / index.html */
+/* font loaded in global.css / index.html */
 
 :root {
   --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);
@@ -624,8 +624,8 @@
 /* Fallback @imports for families not covered by @font-face above. */
 /* These rely on Google Fonts publishing the family under the exact name; */
 /* will silently 404 for custom or non-Google fonts. */
-@import url('https://fonts.googleapis.com/css2?family=Dr%20Boysk%20DEMO%20VERSION:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter%20Display:wght@300;400;500;600;700;800&display=swap');
+/* font loaded in global.css / index.html */
+/* font loaded in global.css / index.html */
 
 :root {
   --token-68ad9c5e-c575-402d-a1b5-a8755b70dbce: rgb(184, 184, 184);

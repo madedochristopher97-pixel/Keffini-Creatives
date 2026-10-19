@@ -323,7 +323,9 @@ export default function CustomPackageBrief({ onClose }: { onClose: () => void })
                             />
                           ) : (
                             <input
-                              id={id} className="brief__input" type={f.kind} placeholder={f.placeholder} autoComplete={f.autoComplete}
+                              id={id} className="brief__input" type={f.kind}
+                              placeholder={'placeholder' in f ? f.placeholder : undefined}
+                              autoComplete={'autoComplete' in f ? f.autoComplete : undefined}
                               value={(answers[f.key] as string) ?? ''} aria-invalid={!!err} aria-describedby={err ? `${id}-err` : undefined}
                               onChange={e => set(f.key, e.target.value)}
                             />

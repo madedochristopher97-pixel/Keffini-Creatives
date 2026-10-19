@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a0014" />
+      <stop offset="60%" stop-color="#65001E" />
+      <stop offset="100%" stop-color="#2a000c" />
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#ffde59" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ffde59" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+
+  <!-- Subtle grid accent lines -->
+  <line x1="80" y1="120" x2="1120" y2="120" stroke="#FFFBEE" stroke-opacity="0.12" stroke-width="1" />
+  <line x1="80" y1="510" x2="1120" y2="510" stroke="#FFFBEE" stroke-opacity="0.12" stroke-width="1" />
+
+  <!-- Top bar / Studio Branding -->
+  <g transform="translate(80, 75)">
+    <text font-family="'Outfit', -apple-system, sans-serif" font-weight="700" font-size="28" fill="#FFFBEE" letter-spacing="1">keffini<tspan font-weight="400" font-size="20" fill="#ffde59"> creative studio®</tspan></text>
+  </g>
+
+  <!-- Location Badge -->
+  <g transform="translate(940, 75)">
+    <rect x="-16" y="-22" width="180" height="36" rx="18" fill="#FFFBEE" fill-opacity="0.1" stroke="#FFFBEE" stroke-opacity="0.2" />
+    <circle cx="0" cy="-4" r="5" fill="#4CC77E" />
+    <text x="14" y="2" font-family="'Outfit', sans-serif" font-weight="500" font-size="14" fill="#FFFBEE">Nairobi, Kenya</text>
+  </g>
+
+  <!-- Main Headline -->
+  <text x="80" y="240" font-family="'Outfit', sans-serif" font-weight="900" font-size="64" fill="#FFFBEE" letter-spacing="-1.5">
+    Brand Identity, UI/UX
+  </text>
+  <text x="80" y="315" font-family="'Outfit', sans-serif" font-weight="900" font-size="64" fill="#FFFBEE" letter-spacing="-1.5">
+    &amp; Software Development
+  </text>
+
+  <!-- Tagline / Value Prop -->
+  <text x="80" y="380" font-family="'Outfit', sans-serif" font-weight="400" font-size="22" fill="#FFFBEE" fill-opacity="0.85">
+    We build business solutions that drive real growth — efficient, scalable, and profit-focused.
+  </text>
+
+  <!-- Services Pills -->
+  <g transform="translate(80, 440)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="170" height="40" rx="20" fill="#FFFBEE" />
+    <text x="85" y="25" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="600" font-size="15" fill="#65001E">Brand Identity</text>
+
+    <!-- Pill 2 -->
+    <rect x="185" y="0" width="160" height="40" rx="20" fill="#FFFBEE" />
+    <text x="265" y="25" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="600" font-size="15" fill="#65001E">UI/UX Design</text>
+
+    <!-- Pill 3 -->
+    <rect x="360" y="0" width="220" height="40" rx="20" fill="#FFFBEE" />
+    <text x="470" y="25" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="600" font-size="15" fill="#65001E">Software Development</text>
+
+    <!-- Pill 4 -->
+    <rect x="595" y="0" width="190" height="40" rx="20" fill="#FFFBEE" />
+    <text x="690" y="25" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="600" font-size="15" fill="#65001E">Digital Marketing</text>
+  </g>
+
+  <!-- Footer Info -->
+  <text x="80" y="555" font-family="'Outfit', sans-serif" font-weight="500" font-size="17" fill="#FFFBEE" fill-opacity="0.7">
+    Hello@keffini.com  •  +254 794 388 578  •  keffini.com
+  </text>
+  <text x="1120" y="555" text-anchor="end" font-family="'Outfit', sans-serif" font-weight="700" font-size="17" fill="#FFDE59">
+    Selected Works &amp; Rate Card ↗
+  </text>
+</svg>

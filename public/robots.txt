@@ -1,0 +1,44 @@
+# robots.txt for Keffini Creative Studio (https://keffini.com)
+
+User-agent: *
+Allow: /
+Disallow: /thank-you
+
+# Explicitly permit AI search crawlers & answer engines (AEO / GEO)
+User-agent: GPTBot
+Allow: /
+Disallow: /thank-you
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /thank-you
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /thank-you
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /thank-you
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Disallow: /thank-you
+
+# Sitemaps and LLM Discovery
+Sitemap: https://keffini.com/sitemap.xml
+
+# Machine-readable briefing for LLMs & AI Agents
+# https://llmstxt.org specification
+# Context: https://keffini.com/llms.txt
+# Full Documentation: https://keffini.com/llms-full.txt
+# Structured Pricing: https://keffini.com/pricing.md

@@ -25,7 +25,7 @@ export interface FaqProps {
   ejE4iIxQg?: boolean;
   /**
    * Fill — pass as `nkgOxRUtD` not `fill`.
-   * @default "var(--token-36ee2a1e-0245-4ebd-b64e-c29cac1b6d1a, rgb(224, 224, 224)) /* {"name":"Content 40"} */"
+   * @default "var(--token-36ee2a1e-0245-4ebd-b64e-c29cac1b6d1a, rgb(224, 224, 224))"
    */
   nkgOxRUtD?: string;
   /** Additional properties */
