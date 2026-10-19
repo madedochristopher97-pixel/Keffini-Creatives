@@ -1,0 +1,141 @@
+# Keffini Creative Studio — Full Technical & Creative Knowledge Base
+
+> Comprehensive reference documentation for AI retrieval systems, LLM crawlers, and researchers on Keffini Creative Studio's operations, design systems, technical stack, portfolio case studies, and commercial policies.
+
+## 1. Studio Overview & Entity Identity
+- **Legal & Trade Name**: Keffini Creative Studio®
+- **Entity Type**: Creative Agency & Software Design Studio (ProfessionalService, LocalBusiness)
+- **Principal Address**: James Gichuru Road, Nairobi, Kenya
+- **Email**: Hello@keffini.com (General & Enquiries) | keffinicreativestudio@gmail.com (Internal Relay)
+- **Phone Number**: +254 794 388 578
+- **WhatsApp Business**: +254 112 896 216 (https://wa.me/254112896216)
+- **Official Website**: https://keffini.com
+- **Territories Served**: Kenya, Uganda, Tanzania, Rwanda, United Kingdom, United States, and Global remote clients
+- **Key Brand Attributes**: Bold typography (Dr Boysk display, Outfit modern sans), warm cream (#FFFBEE) and deep burgundy (#65001E) palette, bespoke craftsmanship, no cookie-cutter templates.
+
+## 2. Disciplines & Technical Capabilities
+
+### A. Brand Identity & Visual Systems
+- Logo design & symbolic marks (e.g. StarCall star-screen, Ivory Horizons elephant R, Squeaky Clean soap foam Q, F.O.M. brick)
+- Comprehensive Brand Style Guides and design token documentation
+- Print & Packaging collateral: business cards (textured, foil-stamped, QR integrated), roll-up banners, vehicle branding/livery, merchandise (oversized t-shirts, caps, embroidered labels)
+- Spatial & Environmental branding (interior signage, window graphics, salon/studio fit-out graphics)
+
+### B. UI/UX & Digital Product Design
+- Information Architecture & user flow mapping
+- High-fidelity interactive prototyping in Framer & Figma
+- Design systems with scalable component libraries and responsive breakpoints
+- Conversion-rate-optimized (CRO) landing pages and onboarding flows
+
+### C. Full-Stack Software & Web Development
+- Modern Web Frameworks: React 18, Vite, TypeScript, Framer Motion, Lenis smooth scrolling
+- Frontend Architecture: Component-driven, CSS tokens, responsive layout islands, accessible ARIA patterns
+- E-commerce & Web Platforms: Custom catalogues, shopping carts, wishlists, and interactive filters
+- Payment Gateways: M-Pesa Daraja API, Lipa Mdogo Mdogo instalments, Stripe/card processing
+- Mobile Applications: Native Android app development, backend architecture, Google Play Store publishing (e.g. StarCall Phones application)
+- Development Partnership: Harrison Ndeke (Harry), specialized web engineer collaborating on high-performance corporate platforms like Bills On Solar and Standout Growth.
+
+### D. Social Media Management & Performance Marketing
+- Content calendar planning & copywriting
+- Campaign art direction & motion graphics
+- Paid social advertising (Meta Ads, Google Ads)
+- Community management & engagement tracking
+
+## 3. In-Depth Portfolio Case Studies
+
+### 3.1 StarCall Phones — Branding & Full App Development (2026)
+- **Client**: StarCall Phones (https://starphones.co.ke)
+- **Industry**: Phone Retail & Fintech (Lipa Mdogo Mdogo installment model)
+- **Challenge**: Build consumer confidence and brand recognition in Kenya's competitive mobile device financing market, where trust and usability are critical.
+- **Brand System Delivered**:
+  - Four-point star mark integrating a phone silhouette and SIM sparkle with "Stay Connected Everyday" brand promise.
+  - High-trust navy and energetic yellow dual-tone colour palette.
+  - Dedicated rounded app icon for mobile home screens.
+  - Studio portrait campaigns featuring people holding devices against vibrant backdrops.
+- **Software Delivered**:
+  - Full-stack mobile application built from May to September 2026.
+  - Robust backend for catalogue synchronization, customer accounts, and Lipa Mdogo Mdogo micropayment instalment tracking.
+  - Published and verified on Google Play Store (App ID: `com.starlife.app`).
+
+### 3.2 Battlezone Kenya (BZK) — 4 Tha Kulture (2026)
+- **Client**: Battlezone Kenya (https://www.instagram.com/battlezonekenya/)
+- **Industry**: Hip-hop Culture, Street Dance & Live Events
+- **Scope**: 3-month visual rollout (July–September 2026) covering Hip Hop 1v1, Breaking, Kids Open Style, and Dead or Alive battles.
+- **Deliverables**:
+  - Teaser street posters with textured collage typography.
+  - Main event artwork combining graffiti artist collaboration with polished vector geometry.
+  - Category judge and host announcement posters.
+  - Streetwear merchandise t-shirt design and mockups.
+  - Custom engraved and printed acrylic winner plaques for event champions.
+
+### 3.3 Foundations of Movement (F.O.M. Studio) — Branding & Social (2026)
+- **Client**: F.O.M. Studio (Fluid Studio, Eden Square, Westlands, Nairobi)
+- **Industry**: Dance Education & Studio
+- **Concept**: "Building better dancers, brick by brick"
+- **Deliverables**:
+  - Hand-drawn typewriter logo lockup with burgundy drop shadow and signature illustrated brick mark.
+  - Three mascot characters representing core styles: Hip Hop, Afro-House, and Popping.
+  - Launch posters, "Why F.O.M." progressive training curriculum, and collectible briefing ID cards.
+  - Oversized black merchandise t-shirts with chest logo, sleeve typography, and back brick artwork with maroon stitching.
+  - Studio logbook-style membership cards, M-Pesa payment guides, teacher profiles (Bukachi, Zack, Ian Munene), and ongoing Instagram management.
+
+### 3.4 Ivory Horizons Tours — Safari Brand Identity & Social (2026)
+- **Client**: Ivory Horizons Tours (https://www.instagram.com/ivoryhorizons/)
+- **Industry**: Luxury Safari & Custom Travel Agency (East Africa)
+- **Tagline**: "Travel · Discover · Belong"
+- **Deliverables**:
+  - Savannah-inspired hand-cut wordmark with hidden elephant head/trunk in the letter R and sunrise horizon in the O.
+  - Colour palette drawn from elephant skin, acacia wood, and warm sand.
+  - Textured business cards with contact QR code, leather-and-compass stationery.
+  - Office and expo roll-up banners.
+  - Safari vehicle spare-wheel covers and door branding (covering Kenya, Uganda, Tanzania, Rwanda).
+  - Premium branded guest umbrellas and travel explorer kit (canvas bags, binoculars).
+  - Ongoing Instagram storytelling campaigns ("The Ivory Standard", "Your Journey Starts Before You Board").
+
+### 3.5 Squeaky Clean — Cleaning Services (2026)
+- **Client**: Squeaky Clean (Kitengela, Kenya)
+- **Industry**: Residential & Commercial Cleaning Services
+- **Deliverables**:
+  - Hand-poured foam bubble Q mark and friendly rounded wordmark.
+  - Navy, electric blue, and suds-foam palette.
+  - Staff uniform apparel (aprons, overalls, buckets).
+  - Custom printed double-sided thank-you cards left with homeowners after service completion.
+  - High-conversion booking posters ("No time to clean — no worries") with Snap/Share/Tag QR codes.
+
+### 3.6 Lunari Jewels — Brand Identity & Social Design (2025)
+- **Client**: Lunari Jewels (https://www.instagram.com/lunarijewels/)
+- **Industry**: Jewelry & Fashion
+- **Deliverables**: Elegant yet approachable visual identity, luxury packaging (boxes, bags, velvet pouches), and scroll-stopping digital promotional assets.
+
+### 3.7 kazi Citas — Digital Agency (2025)
+- **Industry**: Multi-service Local Business Support Agency
+- **Deliverables**: Comprehensive brand system, typography hierarchy, marketing collateral, and clear multi-service categorization.
+
+### 3.8 Casa V Ramoneda — Spanish Family Cartel (2025)
+- **Industry**: Heritage Tobacco & Lifestyle Store
+- **Deliverables**: Architectural heraldic monogram, gold-stamped dark green and black packaging tins, Nobel advertisement layouts, and storefront signage.
+
+### 3.9 Habana Barber & Spa (2025)
+- **Industry**: Premium Men's Grooming & Spa
+- **Deliverables**: Integrated barber tool emblem, gold/black luxury palette, razor engravings, and modern wooden slat interior architectural branding.
+
+### 3.10 Wombman Africa (2025)
+- **Industry**: Feminine Holistic Wellness & Ritual Care
+- **Deliverables**: Earth-toned, calming natural visual identity, botanical label design, linen pouch packaging, and mindful thank-you stationery.
+
+### 3.11 Corporate Web Showcase (Harry / Harrison Ndeke Collaboration)
+- **Bills On Solar**: High-performance corporate solar energy website with product catalogue, interactive quotation calculator, cart, AI assistant, and blog.
+- **Standout Growth**: Personal branding platform for Alice Ngatia featuring interactive quiz assessments, course checkout, and content hub.
+
+## 4. Rate Card & Engagement Packages
+1. **Starter Plan (KES 40,000 / month)**: 2 social platforms, 20 custom graphics/posts, copy, scheduling.
+2. **Growth Plan (KES 50,000 / month)**: 3 social platforms, 30 custom graphics & reels, ad creatives, performance tracking.
+3. **Pro Plan (KES 80,000 / month)**: 4 platforms, daily posting, creative direction, community moderation, paid campaign management.
+4. **Bespoke Project Contracts**: Fixed milestone fees for comprehensive brand identity systems (KES 80k–350k) and custom web/app software (KES 100k–600k+).
+
+## 5. Contact & Booking Information
+- **Studio Inquiries**: Hello@keffini.com
+- **Phone**: +254 794 388 578
+- **WhatsApp**: +254 112 896 216 (https://wa.me/254112896216)
+- **Location**: James Gichuru Road, Nairobi, Kenya
+- **Project Brief**: https://keffini.com/#rates

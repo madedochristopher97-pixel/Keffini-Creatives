@@ -4,6 +4,7 @@ import Header from '../components/layout/Header'
 import Detail from '../components/framer/Detail'
 import MoreWorks from '../components/framer/MoreWorks'
 import Footer from '../components/framer/Footer'
+import SEO from '../components/layout/SEO'
 import { useBreakpoint } from '../components/framer/_responsive-runtime.js'
 import { useScrollReveal } from '../utils/effects/useScrollReveal'
 import { getProject } from '../data/projects'
@@ -23,8 +24,76 @@ export default function ProjectDetail() {
   const [s1, s2, s3] = project.sections
   const im = project.images
 
+  const projectUrl = `https://keffini.com/projects/${project.slug}`
+  const primaryImage = im[0]?.startsWith('http') ? im[0] : `https://keffini.com${im[0] || '/images/og-image.jpg'}`
+
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': ['CreativeWork', 'Article'],
+        '@id': `${projectUrl}#work`,
+        'headline': project.title,
+        'description': project.intro,
+        'url': projectUrl,
+        'genre': project.category,
+        'inLanguage': 'en-US',
+        'creator': {
+          '@type': 'Organization',
+          'name': 'Keffini Creative Studio',
+          'url': 'https://keffini.com/',
+        },
+        'publisher': {
+          '@id': 'https://keffini.com/#organization',
+        },
+        'image': primaryImage,
+        'about': {
+          '@type': 'Thing',
+          'name': project.industry,
+        },
+        'dateCreated': project.year,
+        'datePublished': `${project.year}-01-01`,
+        'articleBody': project.sections?.map(s => `${s.heading} ${s.body}`).join('\n\n') || project.intro,
+      },
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${projectUrl}#breadcrumb`,
+        'itemListElement': [
+          {
+            '@type': 'ListItem',
+            'position': 1,
+            'name': 'Home',
+            'item': 'https://keffini.com/',
+          },
+          {
+            '@type': 'ListItem',
+            'position': 2,
+            'name': 'Projects',
+            'item': 'https://keffini.com/projects',
+          },
+          {
+            '@type': 'ListItem',
+            'position': 3,
+            'name': project.title,
+            'item': projectUrl,
+          },
+        ],
+      },
+    ],
+  }
+
   return (
     <main className="project-detail" key={project.slug}>
+      <SEO
+        title={`${project.title} — ${project.category}`}
+        description={project.intro}
+        keywords={`${project.title}, ${project.category}, ${project.industry}, Keffini Creative Studio, brand identity Nairobi, creative design Kenya`}
+        canonicalPath={`/projects/${project.slug}`}
+        ogType="article"
+        ogImage={primaryImage}
+        schema={schema}
+      />
+      <h1 className="sr-only">{project.title}</h1>
       <Header tone="light" />
       <Detail
         variant={variant}

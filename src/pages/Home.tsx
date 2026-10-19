@@ -16,9 +16,62 @@ import RateCard from '../components/framer/RateCard'
 import CustomPackageBrief from '../components/home/CustomPackageBrief'
 import Faq from '../components/framer/Faq'
 import Footer from '../components/framer/Footer'
+import SEO from '../components/layout/SEO'
 import { useBreakpoint } from '../components/framer/_responsive-runtime.js'
 import { useScrollReveal } from '../utils/effects/useScrollReveal'
 import './home.css'
+
+const HOME_SCHEMA = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebPage',
+      '@id': 'https://keffini.com/#webpage',
+      'url': 'https://keffini.com/',
+      'name': 'Keffini Creative Studio® | Branding, UI/UX & Software Development in Nairobi',
+      'isPartOf': { '@id': 'https://keffini.com/#website' },
+      'about': { '@id': 'https://keffini.com/#organization' },
+      'description':
+        'Keffini Creative Studio builds business solutions that drive real growth — efficient, scalable, and profit-focused. Nairobi, Kenya.',
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': 'https://keffini.com/#faq',
+      'mainEntity': FAQS.map(([q, a]) => ({
+        '@type': 'Question',
+        'name': q,
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': a,
+        },
+      })),
+    },
+    {
+      '@type': 'Service',
+      'serviceType': 'Brand Identity Design',
+      'provider': { '@id': 'https://keffini.com/#organization' },
+      'description': 'Full brand identity systems, logos, typography, packaging design, and visual guidelines.',
+    },
+    {
+      '@type': 'Service',
+      'serviceType': 'Software & Web Development',
+      'provider': { '@id': 'https://keffini.com/#organization' },
+      'description': 'Full-stack web applications, e-commerce, Android mobile apps, and payment integrations.',
+    },
+    {
+      '@type': 'Service',
+      'serviceType': 'UI/UX Design',
+      'provider': { '@id': 'https://keffini.com/#organization' },
+      'description': 'User experience strategy, interface design, interactive prototyping, and design systems.',
+    },
+    {
+      '@type': 'Service',
+      'serviceType': 'Social Media & Digital Marketing',
+      'provider': { '@id': 'https://keffini.com/#organization' },
+      'description': 'Monthly social media management, motion graphics, campaign advertising, and brand strategy.',
+    },
+  ],
+}
 
 const WORKS = [
   { slug: 'battlezone-kenya', title: 'Battlezone Kenya - 4 Tha Kulture', category: 'Event Branding', year: '2026' },
@@ -81,6 +134,13 @@ export default function Home() {
 
   return (
     <main className="home">
+      <SEO
+        title="Branding, UI/UX & Software Development in Nairobi"
+        description="We build business solutions that drive real growth — efficient, scalable, and profit-focused. Bespoke brand identity, UI/UX, software development, and digital marketing in Nairobi."
+        keywords="brand identity, UI/UX design, software development, creative agency Nairobi, web development Kenya, graphic design, social media marketing, Lipa Mdogo Mdogo"
+        canonicalPath="/"
+        schema={HOME_SCHEMA}
+      />
       <Header tone="dark" />
 
       <section className="home-hero"><HeroIntro /></section>
