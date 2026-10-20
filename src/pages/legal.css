@@ -1,0 +1,22 @@
+/* Framer `Legal` lays its body out in a fixed 800x1320 absolutely-positioned box. Our policy text is longer and
+   must reflow, so let the body flow in normal layout and grow with its content.
+   (Framer class hashes; re-check if the export is regenerated.) */
+.legal-page .framer-hsz9cc {
+  position: static !important;
+  transform: none !important;
+  width: 100% !important;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.legal-page .framer-uhk1T,
+.legal-page .framer-1mvrz77-container,
+.legal-page .framer-7H5a7,
+.legal-page .framer-jtgy70-container,
+.legal-page .framer-z3vh52 {
+  height: auto !important;
+  min-height: 0 !important;
+}
+.legal-page a {
+  color: #65001e;
+  text-decoration: underline;
+}

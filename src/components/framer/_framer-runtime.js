@@ -60430,3 +60430,6 @@ if (typeof document !== 'undefined') {
     }
     document.head.appendChild(fragment);
 }
+
+// Port patch: expose the router context provider so the app can supply a route table (see src/utils/FramerRoutes.tsx).
+export { RouterAPIProvider };

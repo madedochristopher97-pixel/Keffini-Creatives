@@ -95,7 +95,13 @@
   <!-- Legal & Privacy -->
   <url>
     <loc>https://keffini.com/privacy</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://keffini.com/terms</loc>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
