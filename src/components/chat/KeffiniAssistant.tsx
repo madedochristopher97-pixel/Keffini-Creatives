@@ -99,7 +99,7 @@ export default function KeffiniAssistant() {
         aria-expanded={open}
         onClick={() => setOpen(prev => !prev)}
       >
-        <span className="kc-ai-launcher__dot" aria-hidden="true" />
+        <img className="kc-ai-launcher__icon" src="/images/bot-icon.svg" alt="" aria-hidden="true" width={20} height={18} />
         <span>{open ? 'Close Assistant' : 'Ask Studio AI'}</span>
       </button>
 

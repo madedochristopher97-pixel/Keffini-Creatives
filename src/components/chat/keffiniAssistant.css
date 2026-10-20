@@ -32,18 +32,11 @@
   transform: translateY(0) scale(0.98);
 }
 
-.kc-ai-launcher__dot {
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background: #4CC77E;
-  box-shadow: 0 0 8px #4CC77E;
-  animation: kc-ai-pulse 2.2s infinite ease-in-out;
-}
-
-@keyframes kc-ai-pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.45; transform: scale(0.85); }
+.kc-ai-launcher__icon {
+  display: block;
+  width: 1.3rem;
+  height: auto;
+  flex: none;
 }
 
 /* Chat Dialog Panel */
