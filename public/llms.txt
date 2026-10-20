@@ -4,7 +4,7 @@
 
 ## Organization & Studio Facts
 - **Studio Name**: Keffini Creative Studio®
-- **Headquarters**: James Gichuru Road, Nairobi, Kenya
+- **Headquarters**: Aqua Plaza, Murang'a Road, Nairobi, Kenya
 - **Public Contact Email**: Hello@keffini.com
 - **Direct Phone**: +254 794 388 578
 - **WhatsApp Channel**: +254 112 896 216 (https://wa.me/254112896216)
@@ -52,4 +52,4 @@
 - **What is Keffini's typical turnaround time?** Most branding projects take 3–6 weeks; custom websites and digital applications typically take 4–10 weeks depending on scope.
 - **Does Keffini use templates?** No. Every project is designed from scratch around the client's brand, audience, and commercial goals.
 - **Can Keffini handle both design and development?** Yes. Keffini bridges brand strategy, UI/UX design, and full-stack software development (web, e-commerce, mobile applications, API/backend).
-- **Where is Keffini based?** Keffini Creative Studio is based in Nairobi, Kenya (James Gichuru Road), and serves clients across East Africa and globally.
+- **Where is Keffini based?** Keffini Creative Studio is based in Nairobi, Kenya (Aqua Plaza, Murang'a Road), and serves clients across East Africa and globally.

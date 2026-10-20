@@ -21,4 +21,4 @@
 | **Ivory Horizons Tours (`/projects/ivory-horizons-tours`)** | `public/images/ivory/logo-on-brown.webp` | "Ivory Horizons Tours — Brand Identity" | "Luxury East African Safaris • Livery, Print Collateral & Social Media" |
 | **Squeaky Clean (`/projects/squeaky-clean`)** | `public/images/squeaky/icon-foam.webp` | "Squeaky Clean Cleaning Services" | "Foam Bubble Identity • Client Thank-You Cards • Uniform Apparel & Posters" |
 | **Lunari Jewels (`/projects/lunari-jewels`)** | `public/images/lunari/poster.jpg` | "Lunari Jewels – Everyday Luxury" | "Jewelry Brand Identity • Packaging Design • Scroll-Ready Social Grid" |
-| **Contact (`/contact`)** | `public/images/og-keffini.svg` | "Start a Project with Keffini Creative Studio" | "James Gichuru Rd, Nairobi • Hello@keffini.com • +254 112 896 216" |
+| **Contact (`/contact`)** | `public/images/og-keffini.svg` | "Start a Project with Keffini Creative Studio" | "Aqua Plaza, Murang'a Rd, Nairobi • Hello@keffini.com • +254 112 896 216" |

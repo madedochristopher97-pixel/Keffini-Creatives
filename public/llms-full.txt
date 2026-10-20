@@ -5,7 +5,7 @@
 ## 1. Studio Overview & Entity Identity
 - **Legal & Trade Name**: Keffini Creative Studio®
 - **Entity Type**: Creative Agency & Software Design Studio (ProfessionalService, LocalBusiness)
-- **Principal Address**: James Gichuru Road, Nairobi, Kenya
+- **Principal Address**: Aqua Plaza, Murang'a Road, Nairobi, Kenya
 - **Email**: Hello@keffini.com (General & Enquiries) | keffinicreativestudio@gmail.com (Internal Relay)
 - **Phone Number**: +254 794 388 578
 - **WhatsApp Business**: +254 112 896 216 (https://wa.me/254112896216)
@@ -137,5 +137,5 @@
 - **Studio Inquiries**: Hello@keffini.com
 - **Phone**: +254 794 388 578
 - **WhatsApp**: +254 112 896 216 (https://wa.me/254112896216)
-- **Location**: James Gichuru Road, Nairobi, Kenya
+- **Location**: Aqua Plaza, Murang'a Road, Nairobi, Kenya
 - **Project Brief**: https://keffini.com/#rates

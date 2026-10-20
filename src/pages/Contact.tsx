@@ -30,7 +30,7 @@ const CONTACT_SCHEMA = {
         'telephone': '+254794388578',
         'address': {
           '@type': 'PostalAddress',
-          'streetAddress': 'James Gichuru Road',
+          'streetAddress': "Aqua Plaza, Murang'a Road",
           'addressLocality': 'Nairobi',
           'addressRegion': 'Nairobi County',
           'addressCountry': 'KE',
@@ -68,8 +68,8 @@ export default function Contact() {
     <main className="contact">
       <SEO
         title="Contact Us & Start a Project — Nairobi Studio"
-        description="Get in touch with Keffini Creative Studio. Based in Nairobi on James Gichuru Road. Enquire about brand identity, UI/UX design, or full-stack software development projects."
-        keywords="contact Keffini, hire creative agency Nairobi, design studio Kenya, James Gichuru Road Nairobi, branding quote Kenya, software agency contact"
+        description="Get in touch with Keffini Creative Studio. Based at Aqua Plaza, Murang'a Road, Nairobi. Enquire about brand identity, UI/UX design, or full-stack software development projects."
+        keywords="contact Keffini, hire creative agency Nairobi, design studio Kenya, Aqua Plaza Murang'a Road Nairobi, branding quote Kenya, software agency contact"
         canonicalPath="/contact"
         schema={CONTACT_SCHEMA}
       />

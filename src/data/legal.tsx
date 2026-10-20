@@ -26,7 +26,7 @@ const Mail = () => <a href="mailto:Hello@keffini.com">Hello@keffini.com</a>
 const privacy = (
   <div style={{ fontSize: 16, lineHeight: 1.65 }}>
     <P>
-      Keffini Creative Studio (“Keffini”, “we”, “us”) is a creative and software studio based on James Gichuru Road, Nairobi,
+      Keffini Creative Studio (“Keffini”, “we”, “us”) is a creative and software studio based at Aqua Plaza, Murang'a Road, Nairobi,
       Kenya. This policy explains what personal information we collect through keffini.com, why we collect it and the choices
       you have. We handle personal data in line with the Kenya Data Protection Act, 2019.
     </P>

@@ -41,7 +41,7 @@ Home, Projects, Contact, Thank You, Privacy.
 - `projects.webp` – "Selected Works" (Explore All Creations): 6 full-width cards with a label bar (category / title):
   Lunari Jewels – Brand Identity & Social Design; kazi Citas – Digital Agency; The Podium – Street Dance; Casa V Ramoneda – Spanish Family Cartel;
   Habana Barber & Spa – Brand Identity & Visual System; Wombman Africa – Brand & Packaging Design.
-- `contact.webp` – "Let's Connect": hero image, form (Name, Email, Message, "Send a Message"), Address (Nairobi, James Gichuru Rd.), Contact (Hello@keffini.com),
+- `contact.webp` – "Let's Connect": hero image, form (Name, Email, Message, "Send a Message"), Address (reference screenshot says Nairobi, James Gichuru Rd.; the real address is Aqua Plaza, Murang'a Rd, Nairobi, per the user 2026-10-20), Contact (Hello@keffini.com),
   two photos "The Office / 2025" and "The Team / 2025", burgundy footer.
 - `menu-overlay.png` – full-screen burgundy hamburger menu: logo, Email Hello@keffini.com, Phone +(254)794 388 578, Location Based in Nairobi, close X,
   huge "Keffini Creative Studio®" in Dr Boysk, live date/time, nav links Home / Projects / Services / Contact / FAQ with ↗ arrows.

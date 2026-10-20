@@ -32,7 +32,7 @@ export function buildStudioKnowledgeBase(): string {
   return `
 # KEFFINI CREATIVE STUDIO®
 - Entity: Independent Creative Agency & Software Design Studio based in Nairobi, Kenya.
-- Physical Location: James Gichuru Road, Nairobi, Kenya.
+- Physical Location: Aqua Plaza, Murang'a Road, Nairobi, Kenya.
 - Mission: We build business solutions that drive real growth — efficient, scalable, and profit-focused.
 - Key Metrics: $120K+ Client Revenue Generated, 95% Client Retention, 100% Bespoke Solutions (No templates).
 - Core Contacts:
