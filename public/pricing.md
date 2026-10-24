@@ -41,4 +41,4 @@ Official rate card and pricing packages for creative design, social media manage
 - **Accepted Payment**: Bank Wire, M-Pesa Till/Paybill, Card
 - **Engagement Process**: 7-step onboarding brief, discovery workshop, milestone approvals, delivery & post-launch support
 - **Enquiry Channel**: Email Hello@keffini.com or WhatsApp +254 112 896 216
-- **Custom Brief URL**: https://keffini.com/#rates
+- **Custom Brief URL**: https://www.keffinicreativestudio.com/#rates

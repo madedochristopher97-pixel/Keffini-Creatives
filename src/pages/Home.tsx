@@ -34,17 +34,17 @@ const HOME_SCHEMA = {
   '@graph': [
     {
       '@type': 'WebPage',
-      '@id': 'https://keffini.com/#webpage',
-      'url': 'https://keffini.com/',
+      '@id': 'https://www.keffinicreativestudio.com/#webpage',
+      'url': 'https://www.keffinicreativestudio.com/',
       'name': 'Keffini Creative Studio® | Branding, UI/UX & Software Development in Nairobi',
-      'isPartOf': { '@id': 'https://keffini.com/#website' },
-      'about': { '@id': 'https://keffini.com/#organization' },
+      'isPartOf': { '@id': 'https://www.keffinicreativestudio.com/#website' },
+      'about': { '@id': 'https://www.keffinicreativestudio.com/#organization' },
       'description':
         'Keffini Creative Studio builds business solutions that drive real growth — efficient, scalable, and profit-focused. Nairobi, Kenya.',
     },
     {
       '@type': 'FAQPage',
-      '@id': 'https://keffini.com/#faq',
+      '@id': 'https://www.keffinicreativestudio.com/#faq',
       'mainEntity': FAQS.map(([q, a]) => ({
         '@type': 'Question',
         'name': q,
@@ -57,25 +57,25 @@ const HOME_SCHEMA = {
     {
       '@type': 'Service',
       'serviceType': 'Brand Identity Design',
-      'provider': { '@id': 'https://keffini.com/#organization' },
+      'provider': { '@id': 'https://www.keffinicreativestudio.com/#organization' },
       'description': 'Full brand identity systems, logos, typography, packaging design, and visual guidelines.',
     },
     {
       '@type': 'Service',
       'serviceType': 'Software & Web Development',
-      'provider': { '@id': 'https://keffini.com/#organization' },
+      'provider': { '@id': 'https://www.keffinicreativestudio.com/#organization' },
       'description': 'Full-stack web applications, e-commerce, Android mobile apps, and payment integrations.',
     },
     {
       '@type': 'Service',
       'serviceType': 'UI/UX Design',
-      'provider': { '@id': 'https://keffini.com/#organization' },
+      'provider': { '@id': 'https://www.keffinicreativestudio.com/#organization' },
       'description': 'User experience strategy, interface design, interactive prototyping, and design systems.',
     },
     {
       '@type': 'Service',
       'serviceType': 'Social Media & Digital Marketing',
-      'provider': { '@id': 'https://keffini.com/#organization' },
+      'provider': { '@id': 'https://www.keffinicreativestudio.com/#organization' },
       'description': 'Monthly social media management, motion graphics, campaign advertising, and brand strategy.',
     },
   ],

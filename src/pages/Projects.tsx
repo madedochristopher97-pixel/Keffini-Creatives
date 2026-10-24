@@ -16,40 +16,40 @@ const PROJECTS_SCHEMA = {
   '@graph': [
     {
       '@type': 'CollectionPage',
-      '@id': 'https://keffini.com/projects#collection',
-      'url': 'https://keffini.com/projects',
+      '@id': 'https://www.keffinicreativestudio.com/projects#collection',
+      'url': 'https://www.keffinicreativestudio.com/projects',
       'name': 'Selected Works & Case Studies | Keffini Creative Studio®',
       'description':
         'Explore selected brand identity, UI/UX design, and software development case studies crafted by Keffini Creative Studio.',
-      'isPartOf': { '@id': 'https://keffini.com/#website' },
+      'isPartOf': { '@id': 'https://www.keffinicreativestudio.com/#website' },
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://keffini.com/projects#breadcrumb',
+      '@id': 'https://www.keffinicreativestudio.com/projects#breadcrumb',
       'itemListElement': [
         {
           '@type': 'ListItem',
           'position': 1,
           'name': 'Home',
-          'item': 'https://keffini.com/',
+          'item': 'https://www.keffinicreativestudio.com/',
         },
         {
           '@type': 'ListItem',
           'position': 2,
           'name': 'Projects',
-          'item': 'https://keffini.com/projects',
+          'item': 'https://www.keffinicreativestudio.com/projects',
         },
       ],
     },
     {
       '@type': 'ItemList',
-      '@id': 'https://keffini.com/projects#itemlist',
+      '@id': 'https://www.keffinicreativestudio.com/projects#itemlist',
       'name': 'Featured Projects & Case Studies',
       'itemListElement': [
         ...PROJECT_ROWS.map((p, idx) => ({
           '@type': 'ListItem',
           'position': idx + 1,
-          'url': `https://keffini.com/projects/${p.XG3otaDlZ}`,
+          'url': `https://www.keffinicreativestudio.com/projects/${p.XG3otaDlZ}`,
           'name': p.dAZk2Jaon,
         })),
         ...WEB_PROJECTS.map((w, idx) => ({

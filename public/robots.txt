@@ -1,4 +1,4 @@
-# robots.txt for Keffini Creative Studio (https://keffini.com)
+# robots.txt for Keffini Creative Studio (https://www.keffinicreativestudio.com)
 
 User-agent: *
 Allow: /
@@ -35,10 +35,10 @@ Allow: /
 Disallow: /thank-you
 
 # Sitemaps and LLM Discovery
-Sitemap: https://keffini.com/sitemap.xml
+Sitemap: https://www.keffinicreativestudio.com/sitemap.xml
 
 # Machine-readable briefing for LLMs & AI Agents
 # https://llmstxt.org specification
-# Context: https://keffini.com/llms.txt
-# Full Documentation: https://keffini.com/llms-full.txt
-# Structured Pricing: https://keffini.com/pricing.md
+# Context: https://www.keffinicreativestudio.com/llms.txt
+# Full Documentation: https://www.keffinicreativestudio.com/llms-full.txt
+# Structured Pricing: https://www.keffinicreativestudio.com/pricing.md

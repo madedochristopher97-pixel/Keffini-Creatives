@@ -16,15 +16,15 @@ const CONTACT_SCHEMA = {
   '@graph': [
     {
       '@type': 'ContactPage',
-      '@id': 'https://keffini.com/contact#page',
-      'url': 'https://keffini.com/contact',
+      '@id': 'https://www.keffinicreativestudio.com/contact#page',
+      'url': 'https://www.keffinicreativestudio.com/contact',
       'name': 'Contact Keffini Creative Studio®',
       'description':
         'Get in touch with Keffini Creative Studio in Nairobi for brand identity, UI/UX, software development, and digital marketing inquiries.',
-      'isPartOf': { '@id': 'https://keffini.com/#website' },
+      'isPartOf': { '@id': 'https://www.keffinicreativestudio.com/#website' },
       'mainEntity': {
         '@type': ['Organization', 'ProfessionalService', 'LocalBusiness'],
-        '@id': 'https://keffini.com/#organization',
+        '@id': 'https://www.keffinicreativestudio.com/#organization',
         'name': 'Keffini Creative Studio',
         'email': 'Hello@keffini.com',
         'telephone': '+254794388578',
@@ -39,19 +39,19 @@ const CONTACT_SCHEMA = {
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://keffini.com/contact#breadcrumb',
+      '@id': 'https://www.keffinicreativestudio.com/contact#breadcrumb',
       'itemListElement': [
         {
           '@type': 'ListItem',
           'position': 1,
           'name': 'Home',
-          'item': 'https://keffini.com/',
+          'item': 'https://www.keffinicreativestudio.com/',
         },
         {
           '@type': 'ListItem',
           'position': 2,
           'name': 'Contact',
-          'item': 'https://keffini.com/contact',
+          'item': 'https://www.keffinicreativestudio.com/contact',
         },
       ],
     },

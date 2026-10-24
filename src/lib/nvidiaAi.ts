@@ -39,7 +39,7 @@ export function buildStudioKnowledgeBase(): string {
   - Email: ${CONTACT_EMAIL} (Hello@keffini.com)
   - Direct Phone: +(254) 794 388 578
   - WhatsApp: ${WHATSAPP_DISPLAY} (${waLink()})
-  - Website: https://keffini.com
+  - Website: https://www.keffinicreativestudio.com
   - Booking & Custom Brief: /contact or /#rates
 
 # CORE DISCIPLINES & SERVICES

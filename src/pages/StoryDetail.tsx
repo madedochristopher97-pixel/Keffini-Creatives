@@ -15,10 +15,10 @@ export default function StoryDetail({ project }) {
   const variant = bp === 'base' || bp === 'sm' ? 'Phone' : bp === 'md' ? 'Tablet' : 'Desktop'
   const facts = [['Year', project.year], ['Industry', project.industry], ['Space of work', project.category], ['Timeline', project.timeline]]
 
-  const projectUrl = `https://keffini.com/projects/${project.slug}`
+  const projectUrl = `https://www.keffinicreativestudio.com/projects/${project.slug}`
   const primaryImage = project.images?.[0]?.startsWith('http')
     ? project.images[0]
-    : `https://keffini.com${project.images?.[0] || '/images/og-image.jpg'}`
+    : `https://www.keffinicreativestudio.com${project.images?.[0] || '/images/og-image.jpg'}`
 
   const schema = {
     '@context': 'https://schema.org',
@@ -34,10 +34,10 @@ export default function StoryDetail({ project }) {
         'creator': {
           '@type': 'Organization',
           'name': 'Keffini Creative Studio',
-          'url': 'https://keffini.com/',
+          'url': 'https://www.keffinicreativestudio.com/',
         },
         'publisher': {
-          '@id': 'https://keffini.com/#organization',
+          '@id': 'https://www.keffinicreativestudio.com/#organization',
         },
         'image': primaryImage,
         'about': {
@@ -63,13 +63,13 @@ export default function StoryDetail({ project }) {
             '@type': 'ListItem',
             'position': 1,
             'name': 'Home',
-            'item': 'https://keffini.com/',
+            'item': 'https://www.keffinicreativestudio.com/',
           },
           {
             '@type': 'ListItem',
             'position': 2,
             'name': 'Projects',
-            'item': 'https://keffini.com/projects',
+            'item': 'https://www.keffinicreativestudio.com/projects',
           },
           {
             '@type': 'ListItem',

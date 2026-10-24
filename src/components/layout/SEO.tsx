@@ -14,8 +14,8 @@ export interface SeoProps {
 const DEFAULT_TITLE = 'Keffini Creative Studio® | Branding, UI/UX & Software Development in Nairobi'
 const DEFAULT_DESCRIPTION =
   'Keffini Creative Studio is a Nairobi-based creative & software studio building business solutions that drive real growth — blending brand identity, UI/UX design, full-stack software development, and digital marketing.'
-const DEFAULT_OG_IMAGE = 'https://keffini.com/images/og-image.jpg'
-const SITE_URL = 'https://keffini.com'
+const DEFAULT_OG_IMAGE = 'https://www.keffinicreativestudio.com/images/og-image.jpg'
+const SITE_URL = 'https://www.keffinicreativestudio.com'
 
 function setMetaTag(selector: string, attrName: string, attrValue: string, content: string) {
   let element = document.head.querySelector<HTMLMetaElement>(selector)

@@ -27,7 +27,7 @@ const privacy = (
   <div style={{ fontSize: 16, lineHeight: 1.65 }}>
     <P>
       Keffini Creative Studio (“Keffini”, “we”, “us”) is a creative and software studio based at Aqua Plaza, Murang'a Road, Nairobi,
-      Kenya. This policy explains what personal information we collect through keffini.com, why we collect it and the choices
+      Kenya. This policy explains what personal information we collect through keffinicreativestudio.com, why we collect it and the choices
       you have. We handle personal data in line with the Kenya Data Protection Act, 2019.
     </P>
     <H>What we collect</H>
@@ -86,7 +86,7 @@ const privacy = (
 const terms = (
   <div style={{ fontSize: 16, lineHeight: 1.65 }}>
     <P>
-      These terms apply to your use of keffini.com and to enquiries you make to Keffini Creative Studio (“Keffini”, “we”,
+      These terms apply to your use of keffinicreativestudio.com and to enquiries you make to Keffini Creative Studio (“Keffini”, “we”,
       “us”). By using the site you agree to them.
     </P>
     <H>Our services</H>
@@ -157,7 +157,7 @@ export const LEGAL_DOCS: Record<string, LegalDoc> = {
     effectiveDate: '20 October 2026',
     seoTitle: 'Terms & Conditions',
     seoDescription:
-      'Terms for using keffini.com and working with Keffini Creative Studio: services, payment, ownership, revisions and liability.',
+      'Terms for using keffinicreativestudio.com and working with Keffini Creative Studio: services, payment, ownership, revisions and liability.',
     content: terms,
   },
 }
