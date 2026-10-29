@@ -82,13 +82,20 @@ export default function SEO({
     setMetaTag('meta[property="og:site_name"]', 'property', 'og:site_name', 'Keffini Creative Studio')
     setMetaTag('meta[property="og:locale"]', 'property', 'og:locale', 'en_US')
     setMetaTag('meta[property="og:image"]', 'property', 'og:image', resolvedOgImage)
+    setMetaTag('meta[property="og:image:secure_url"]', 'property', 'og:image:secure_url', resolvedOgImage)
+    setMetaTag('meta[property="og:image:type"]', 'property', 'og:image:type', resolvedOgImage.endsWith('.png') ? 'image/png' : 'image/jpeg')
+    setMetaTag('meta[property="og:image:width"]', 'property', 'og:image:width', '1200')
+    setMetaTag('meta[property="og:image:height"]', 'property', 'og:image:height', '630')
     setMetaTag('meta[property="og:image:alt"]', 'property', 'og:image:alt', formattedTitle)
 
     // 5. Twitter Card Tags
     setMetaTag('meta[name="twitter:card"]', 'name', 'twitter:card', 'summary_large_image')
+    setMetaTag('meta[name="twitter:site"]', 'name', 'twitter:site', '@keffinicreative')
+    setMetaTag('meta[name="twitter:creator"]', 'name', 'twitter:creator', '@keffinicreative')
     setMetaTag('meta[name="twitter:title"]', 'name', 'twitter:title', formattedTitle)
     setMetaTag('meta[name="twitter:description"]', 'name', 'twitter:description', description)
     setMetaTag('meta[name="twitter:image"]', 'name', 'twitter:image', resolvedOgImage)
+    setMetaTag('meta[name="twitter:image:alt"]', 'name', 'twitter:image:alt', formattedTitle)
 
     // 6. JSON-LD Structured Data (Schema.org)
     const scriptId = 'route-jsonld-schema'

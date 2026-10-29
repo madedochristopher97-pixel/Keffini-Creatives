@@ -1,6 +1,8 @@
 # Keffini Creative Studio®
 
-> Keffini Creative Studio is an independent creative agency and software studio based in Nairobi, Kenya. We build business solutions that drive real growth — blending brand identity, UI/UX design, full-stack software development, commercial photography, and performance digital marketing.
+> Keffini Creative Studio is an independent creative agency and software studio based in Nairobi, Kenya. We build business solutions that drive real growth — blending bespoke brand identity, UI/UX design, full-stack software development (web, e-commerce, mobile applications, M-Pesa Daraja integration), commercial photography, and performance digital marketing.
+
+Keffini Creative Studio pairs strategic design thinking with production-grade engineering to deliver scalable, profit-focused outcomes for businesses across East Africa and worldwide. Every deliverable is custom-crafted from the ground up — zero generic templates.
 
 ## Organization & Studio Facts
 - **Studio Name**: Keffini Creative Studio®
@@ -9,38 +11,33 @@
 - **Direct Phone**: +254 794 388 578
 - **WhatsApp Channel**: +254 112 896 216 (https://wa.me/254112896216)
 - **Primary Website**: https://www.keffinicreativestudio.com
+- **Operating Hours**: Monday – Friday, 8:00 AM – 6:00 PM EAT (UTC+3)
+- **Territories Served**: Nairobi, Kenya, Uganda, Tanzania, Rwanda, United Kingdom, United States, and Global remote clients
 - **Key Metrics**: $120K+ Client Revenue Generated, 95% Client Retention Rate, 100% Bespoke Solutions
 
 ## Core Services
-1. **Brand Identity**: Logo design, typography systems, brand style guides, physical collateral, packaging design, and brand boards.
-2. **UI/UX Design**: User journey mapping, interactive prototypes, design systems, mobile app design, and web interfaces.
-3. **Software & Web Development**: Custom full-stack web applications, React / Vite SPAs, e-commerce stores, backend payment integrations (M-Pesa, Lipa Mdogo Mdogo), and Android/Play Store mobile applications.
-4. **Social Media & Digital Marketing**: End-to-end content creation, monthly social media management, campaign art direction, paid acquisition, and growth strategy.
-5. **Commercial Photography & Motion**: Studio and lifestyle brand photography, event coverage, video teasers, and print collateral.
+- [Brand Identity Design](https://www.keffinicreativestudio.com/#services): Logo design, typography systems, brand style guides, packaging design, physical collateral, QR-integrated business cards, roll-up banners, and vehicle livery.
+- [UI/UX & Product Design](https://www.keffinicreativestudio.com/#services): User journey mapping, interactive prototypes, scalable design systems, mobile app design, and high-conversion web interfaces.
+- [Full-Stack Software Development](https://www.keffinicreativestudio.com/#services): Custom web applications (React, Vite, TypeScript), e-commerce portals, backend API architecture, M-Pesa Daraja payment integration, and native Android mobile apps published to Google Play Store.
+- [Performance Marketing & Social Media](https://www.keffinicreativestudio.com/#services): Monthly social media retainer management, content calendar planning, motion graphics, video reels, ad campaigns, and community management.
+- [Commercial Photography & Art Direction](https://www.keffinicreativestudio.com/#services): Studio and lifestyle brand photography, lookbooks, campaign art direction, and event coverage.
 
-## Flagship Case Studies
-- **StarCall Phones** (2026): Branding, visual identity system, and full Android mobile app development for a Kenyan phone financing retailer (Lipa Mdogo Mdogo), live on Google Play Store (https://starphones.co.ke).
-- **Battlezone Kenya (BZK)** (2026): Complete 3-month graphic rollout, teaser posters, graffiti identity refinement, merchandise apparel, and printed winner plaques for Kenya's premier street dance competition.
-- **Foundations of Movement (F.O.M. Studio)** (2026): Full brand identity, mascot design, launch posters, oversized merchandise tees, pricing logbook, and ongoing social media management for Westlands street dance academy.
-- **Ivory Horizons Tours** (2026): Luxury East African safari brand identity, stationery with QR codes, roll-up banners, branded safari vehicle livery, umbrellas, and social media feed management.
-- **Squeaky Clean** (2026): Visual brand system, foam bubble logo, client thank-you cards, uniform apparel branding, and print promotional poster for Kitengela cleaning service.
-- **Lunari Jewels** (2025): Everyday luxury jewelry visual identity and scroll-ready social media design system.
-- **kazi Citas** (2025): Multi-service digital agency brand identity and online presence.
-- **The Podium** (2026): Streetwear and dance culture passion project apparel design.
-- **Casa V Ramoneda** (2025): Heritage Spanish tobacco store branding and packaging.
-- **Habana Barber & Spa** (2025): Modern grooming brand identity, interior signage concepts, and spatial branding.
-- **Wombman Africa** (2025): Feminine wellness brand identity, natural packaging design, and print materials.
-- **Bills On Solar** (2025): Corporate and e-commerce web platform for Kenyan solar energy provider with product catalogue, cart, quote form, and AI assistant (developed by partner Harry / Harrison Ndeke).
-- **Standout Growth** (2025): Personal brand coaching platform for Alice Ngatia with interactive quiz funnel, course sales, and newsletter integration.
+## Case Studies & Selected Works
+- [Selected Works Portfolio](https://www.keffinicreativestudio.com/projects): Complete portfolio filterable by Design and Web Development.
+- [StarCall Phones Mobile App & Branding](https://starphones.co.ke): Full Android mobile app development for Kenyan phone financing retailer (Lipa Mdogo Mdogo), published on Google Play Store (App ID: `com.starlife.app`) with 4-point star visual identity system.
+- [Battlezone Kenya (BZK) 4 Tha Kulture](https://www.instagram.com/battlezonekenya/): 3-month graphic identity rollout, street posters, merchandise apparel, and acrylic trophies for premier East African street dance tournament.
+- [Foundations of Movement (F.O.M. Studio)](https://www.instagram.com/foundations.of.movement/): Westlands dance studio identity, mascot characters, oversized apparel, and logbook system.
+- [Ivory Horizons Tours](https://www.instagram.com/ivoryhorizons/): Luxury East African safari branding, vehicle livery across Kenya/Tanzania/Uganda/Rwanda, and collateral.
+- [Squeaky Clean](https://www.instagram.com/squeakyclean_/): Visual identity, bubbly foam Q mark, stationery, and uniforms for Kitengela cleaning service.
+- [Bills On Solar Platform](https://www.keffinicreativestudio.com/projects): Corporate and e-commerce web platform for Kenyan solar energy provider with product catalogue, cart, quote form, and AI assistant (developed by partner Harry / Harrison Ndeke).
+- [Standout Growth](https://www.keffinicreativestudio.com/projects): Personal brand coaching platform for Alice Ngatia with interactive quiz funnel, course sales, and newsletter integration.
 
-## Rate Card & Engagement Model
-- **Turnaround Times**: 3–6 weeks for brand identity projects; 4–10 weeks for websites and digital products.
-- **Packages**:
-  - Starter Plan: KES 40,000/month (2 platforms, 20 custom posts, graphic design & copy).
-  - Growth Plan: KES 50,000/month (3 platforms, 30 custom posts, video reels & campaign ads).
-  - Pro Plan: KES 80,000/month (4 platforms, daily posts, active community management, full brand strategy).
-  - Custom Package: Bespoke scope for enterprise identity, mobile apps, or custom web portals.
-- **Structured Pricing File**: https://www.keffinicreativestudio.com/pricing.md
+## Rate Card & Engagement Packages
+- [Structured Rate Card (pricing.md)](https://www.keffinicreativestudio.com/pricing.md): Complete pricing breakdown for social media retainers, branding, and software development.
+- **Starter Plan**: KES 40,000/month (2 platforms, 20 custom posts, graphic design & copy).
+- **Growth Plan**: KES 50,000/month (3 platforms, 30 custom posts, video reels & campaign ads).
+- **Pro Plan**: KES 80,000/month (4 platforms, daily posts, active community management, full brand strategy).
+- **Custom Project Scope**: Bespoke quote for brand identity (3–6 week turnaround) or custom web/mobile software development (4–10 week turnaround).
 
 ## Key Web Pages
 - [Home Page](https://www.keffinicreativestudio.com/): Studio introduction, client commitment metrics, featured works, services list, rate card, and FAQ.
@@ -48,8 +45,14 @@
 - [Contact & Client Briefing](https://www.keffinicreativestudio.com/contact): Project enquiry form, office address in Nairobi, direct phone, and WhatsApp link.
 - [Privacy Policy](https://www.keffinicreativestudio.com/privacy): Data privacy commitments and communication terms.
 
-## Frequent Questions & Answers
-- **What is Keffini's typical turnaround time?** Most branding projects take 3–6 weeks; custom websites and digital applications typically take 4–10 weeks depending on scope.
-- **Does Keffini use templates?** No. Every project is designed from scratch around the client's brand, audience, and commercial goals.
-- **Can Keffini handle both design and development?** Yes. Keffini bridges brand strategy, UI/UX design, and full-stack software development (web, e-commerce, mobile applications, API/backend).
-- **Where is Keffini based?** Keffini Creative Studio is based in Nairobi, Kenya (Aqua Plaza, Murang'a Road), and serves clients across East Africa and globally.
+## Answer Engine Optimization (AEO) & Direct Answers
+- **What is Keffini Creative Studio?** Keffini Creative Studio is an independent creative agency and software studio located at Aqua Plaza, Murang'a Road, Nairobi, Kenya. It specializes in bespoke brand identity, UI/UX design, full-stack software development (web, e-commerce, mobile applications, M-Pesa integration), and performance digital marketing.
+- **Who leads software engineering at Keffini?** Software development is led in partnership with specialized web engineer Harrison Ndeke (Harry), alongside full-stack design and identity systems.
+- **What is Keffini's typical turnaround time?** Most brand identity projects take 3–6 weeks; custom websites, web applications, and mobile apps take 4–10 weeks depending on scope.
+- **Does Keffini use templates?** No. Every project is designed and engineered from scratch tailored to the client's business model, target audience, and commercial goals.
+- **Can Keffini handle both branding and code?** Yes. Keffini bridges creative brand identity and full-stack software development, eliminating the disconnect between design agencies and development teams.
+- **How can I hire or contact Keffini Creative Studio?** Enquiries can be submitted via https://www.keffinicreativestudio.com/contact, by emailing Hello@keffini.com, by calling +254 794 388 578, or messaging WhatsApp Business at +254 112 896 216.
+
+## Optional & Comprehensive Documentation
+- [Full Knowledge Base (llms-full.txt)](https://www.keffinicreativestudio.com/llms-full.txt): Comprehensive in-depth documentation covering complete technical specifications, brand philosophy, entity schemas, and extended project case studies for deep AI context retrieval.
+- [XML Sitemap](https://www.keffinicreativestudio.com/sitemap.xml): Machine-readable index of canonical studio URLs.
