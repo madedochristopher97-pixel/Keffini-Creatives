@@ -6,7 +6,6 @@ import { PROJECT_ROWS } from '../data/projectRows.js'
 import Header from '../components/layout/Header'
 import HeroIntro from '../components/home/HeroIntro'
 import Why from '../components/framer/Why'
-import ImageLoopCard from '../components/framer/ImageLoopCard'
 import Subtitle from '../components/framer/Subtitle'
 import Counter from '../components/framer/Counter'
 import Brands from '../components/framer/Brands'
@@ -88,38 +87,46 @@ const WORKS = [
   { slug: 'ivory-horizons-tours', title: 'Ivory Horizons Tours - Travel Brand', category: 'Branding & Social Media', year: '2026' },
 ]
 
+// Cover images for the Latest Works grid, preloaded on mount so the cards render instantly.
+const WORK_COVERS = WORKS
+  .map(w => PROJECT_ROWS.find(p => p.XG3otaDlZ === w.slug)?.XpFWjsiiE)
+  .filter(Boolean)
 
-// The ImageLoopCard has 5 image slots/variants (image1..5 = bNIxmSYTX, CXo7fyVBS, YzLWPJL0x, Hu6fn5bt1, UhE81XPkg).
-// We have 6 photos, so each tick puts the next photo into the slot of the variant being shown.
-const LOOP_VARIANTS = [
-  { variant: 'rwVy46cSw', prop: 'bNIxmSYTX' },
-  { variant: 'fXz2uPEpF', prop: 'CXo7fyVBS' },
-  { variant: 'SUjh3_MZT', prop: 'YzLWPJL0x' },
-  { variant: 'ftDlrfWhC', prop: 'Hu6fn5bt1' },
-  { variant: 'HLsNJgaQm', prop: 'UhE81XPkg' },
-]
+
 const LOOP_PHOTOS = [1, 2, 3, 4, 5, 6].map(n => `/images/loop/loop-${n}.jpg`)
 
-// Cycles the Framer ImageLoopCard through the photos (the loop in the design)
-function ImageLoop({ interval = 2000 }) {
+// Simple, reliable cross-fade through all six photos in order. Replaces the Framer
+// ImageLoopCard, whose own built-in 1s auto-advance fought this parent's timer and made
+// the loop stutter/jump back to the previous photo. All six <img> are in the DOM, so they
+// preload together and each fade is just an opacity swap.
+function ImageLoop({ interval = 2600 }) {
   const [i, setI] = useState(0)
   useEffect(() => {
-    const id = setInterval(() => setI(n => n + 1), interval)
+    const id = setInterval(() => setI(n => (n + 1) % LOOP_PHOTOS.length), interval)
     return () => clearInterval(id)
   }, [interval])
-  const { variant } = LOOP_VARIANTS[i % LOOP_VARIANTS.length]
-  // Fill every slot (never fall back to the component stock photos): slot j shows the photo of the next tick that lands on j
-  const images = {}
-  LOOP_VARIANTS.forEach(({ prop }, j) => {
-    const n = LOOP_VARIANTS.length, prev = i - 1 // keep the slot we are fading out of on its old photo
-    const tick = prev + ((j - (((prev % n) + n) % n) + n) % n)
-    images[prop] = { src: LOOP_PHOTOS[((tick % LOOP_PHOTOS.length) + LOOP_PHOTOS.length) % LOOP_PHOTOS.length], alt: "" }
-  })
-  return <ImageLoopCard variant={variant} {...images} />
+  return (
+    <div className="home-loop">
+      {LOOP_PHOTOS.map((src, j) => (
+        <img
+          key={src}
+          src={src}
+          alt=""
+          aria-hidden={j !== i}
+          loading="eager"
+          className={'home-loop__img' + (j === i ? ' is-active' : '')}
+        />
+      ))}
+    </div>
+  )
 }
 
 export default function Home() {
   useScrollReveal()
+  // Warm the browser cache for the Latest Works covers so they appear without a load delay.
+  useEffect(() => {
+    WORK_COVERS.forEach(src => { const img = new Image(); img.src = src })
+  }, [])
   const bp = useBreakpoint()
   const mobile = bp === 'base' || bp === 'sm'
   const tablet = bp === 'md'

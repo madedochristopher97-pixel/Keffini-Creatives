@@ -9,6 +9,10 @@
 .home-commitment__media { position: relative; aspect-ratio: 7 / 10; overflow: hidden; }
 .home-commitment__media > *, .home-commitment__media [class*="framer-"][class*="-v-"] { position: absolute !important; inset: 0; width: 100% !important; height: 100% !important; }
 .home-commitment__media img { width: 100% !important; height: 100% !important; object-fit: cover; display: block; }
+/* Cross-fade loop: all six photos stacked, only the active one is opaque */
+.home-loop { position: absolute; inset: 0; }
+.home-loop__img { position: absolute !important; inset: 0; opacity: 0; transition: opacity .9s ease; }
+.home-loop__img.is-active { opacity: 1; }
 .home-counter { min-width: 0; zoom: .88; }
 .home-counter:nth-child(1) { min-width: 252px; } .home-counter:nth-child(2) { min-width: 190px; } .home-counter:nth-child(3) { min-width: 220px; }
 /* flex (not auto grid): the count-up changes each counter width, so grid columns were sized too small and labels overlapped the next number */
