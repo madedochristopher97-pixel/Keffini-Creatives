@@ -1,6 +1,6 @@
 # Keffini Creative Studio®
 
-> Keffini Creative Studio is an independent creative agency and software studio based in Nairobi, Kenya. We build business solutions that drive real growth — blending bespoke brand identity, UI/UX design, full-stack software development (web, e-commerce, mobile applications, M-Pesa Daraja integration), commercial photography, and performance digital marketing.
+> Keffini Creative Studio is an independent creative agency and software studio based in Nairobi, Kenya. We build business solutions that drive real growth — blending bespoke brand identity, UI/UX design, full-stack software development (web, e-commerce, mobile applications, M-Pesa Daraja integration), commercial photography, performance digital marketing, marketing services (activations, outdoor and event marketing), and bulk & large-format printing (uniforms, apparel, signage, packaging).
 
 Keffini Creative Studio pairs strategic design thinking with production-grade engineering to deliver scalable, profit-focused outcomes for businesses across East Africa and worldwide. Every deliverable is custom-crafted from the ground up — zero generic templates.
 
@@ -20,6 +20,8 @@ Keffini Creative Studio pairs strategic design thinking with production-grade en
 - [UI/UX & Product Design](https://www.keffinicreativestudio.com/#services): User journey mapping, interactive prototypes, scalable design systems, mobile app design, and high-conversion web interfaces.
 - [Full-Stack Software Development](https://www.keffinicreativestudio.com/#services): Custom web applications (React, Vite, TypeScript), e-commerce portals, backend API architecture, M-Pesa Daraja payment integration, and native Android mobile apps published to Google Play Store.
 - [Performance Marketing & Social Media](https://www.keffinicreativestudio.com/#services): Monthly social media retainer management, content calendar planning, motion graphics, video reels, ad campaigns, and community management.
+- [Printing Services](https://www.keffinicreativestudio.com/#services): Bulk and large-format printing for businesses, schools and teams: staff and school uniforms, branded apparel and merchandise, banners, signage, and packaging print, produced at volume and kept on-brand.
+- [Marketing Services](https://www.keffinicreativestudio.com/#services): Marketing beyond social media: market research, go-to-market plans, brand activations, outdoor advertising, event marketing, and promotions.
 - [Commercial Photography & Art Direction](https://www.keffinicreativestudio.com/#services): Studio and lifestyle brand photography, lookbooks, campaign art direction, and event coverage.
 
 ## Case Studies & Selected Works
@@ -46,7 +48,9 @@ Keffini Creative Studio pairs strategic design thinking with production-grade en
 - [Privacy Policy](https://www.keffinicreativestudio.com/privacy): Data privacy commitments and communication terms.
 
 ## Answer Engine Optimization (AEO) & Direct Answers
-- **What is Keffini Creative Studio?** Keffini Creative Studio is an independent creative agency and software studio located at Aqua Plaza, Murang'a Road, Nairobi, Kenya. It specializes in bespoke brand identity, UI/UX design, full-stack software development (web, e-commerce, mobile applications, M-Pesa integration), and performance digital marketing.
+- **What is Keffini Creative Studio?** Keffini Creative Studio is an independent creative agency and software studio located at Aqua Plaza, Murang'a Road, Nairobi, Kenya. It specializes in bespoke brand identity, UI/UX design, full-stack software development (web, e-commerce, mobile applications, M-Pesa integration), performance digital marketing, marketing services, and bulk printing.
+- **Does Keffini offer printing services?** Yes. Keffini handles bulk and large-format printing in Nairobi, including staff and school uniforms, branded apparel and merchandise, banners, signage, and packaging. Request a quote via https://www.keffinicreativestudio.com/contact or WhatsApp +254 112 896 216.
+- **Does Keffini do marketing beyond social media?** Yes. Alongside social media management, Keffini runs market research, go-to-market plans, brand activations, outdoor advertising, event marketing, and promotions.
 - **Who leads software engineering at Keffini?** Software development is led in partnership with specialized web engineer Harrison Ndeke (Harry), alongside full-stack design and identity systems.
 - **What is Keffini's typical turnaround time?** Most brand identity projects take 3–6 weeks; custom websites, web applications, and mobile apps take 4–10 weeks depending on scope.
 - **Does Keffini use templates?** No. Every project is designed and engineered from scratch tailored to the client's business model, target audience, and commercial goals.
