@@ -206,5 +206,6 @@ Framero6Cl_f_CT.loader = { load: (props, context) => {
 var __FramerMetadata__ = { "exports": { "default": { "type": "reactComponent", "name": "Framero6Cl_f_CT", "slots": [], "annotations": { "framerComponentViewportWidth": "true", "framerImmutableVariables": "true", "framerIntrinsicHeight": "870", "framerVariables": '{"lVTXes8OT":"cursor1","nM49zxtOZ":"cursor2","wNMx0LJLM":"cursor3","h2QFIa86Z":"cursor4","KwCT6qBIR":"cursor"}', "framerIntrinsicWidth": "1072", "framerCanvasComponentVariantDetails": '{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"ahKN7o5Se":{"layout":["fixed","auto"]},"Yz8m7SK5X":{"layout":["fixed","auto"]}}}', "framerContractVersion": "1", "framerAutoSizeImages": "true", "framerColorSyntax": "true", "framerDisplayContentsDiv": "false" } }, "Props": { "type": "tsType", "annotations": { "framerContractVersion": "1" } }, "__FramerMetadata__": { "type": "variable" } } };
 export {
   __FramerMetadata__,
-  o6Cl_f_CT_default as default
+  o6Cl_f_CT_default as default,
+  aBd0zgJbC_default as ServiceCard
 };

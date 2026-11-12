@@ -10,7 +10,7 @@ import Subtitle from '../components/framer/Subtitle'
 import Counter from '../components/framer/Counter'
 import Brands from '../components/framer/Brands'
 import CardWorks from '../components/framer/CardWorks'
-import ServiceList from '../components/framer/ServiceList'
+import ServicesList from '../components/home/ServicesList'
 import RateCard from '../components/framer/RateCard'
 import CustomPackageBrief from '../components/home/CustomPackageBrief'
 import Faq from '../components/framer/Faq'
@@ -76,6 +76,18 @@ const HOME_SCHEMA = {
       'serviceType': 'Social Media & Digital Marketing',
       'provider': { '@id': 'https://www.keffinicreativestudio.com/#organization' },
       'description': 'Monthly social media management, motion graphics, campaign advertising, and brand strategy.',
+    },
+    {
+      '@type': 'Service',
+      'serviceType': 'Printing Services',
+      'provider': { '@id': 'https://www.keffinicreativestudio.com/#organization' },
+      'description': 'Bulk and large-format printing: uniforms and apparel, branded merchandise, signage, banners, and packaging.',
+    },
+    {
+      '@type': 'Service',
+      'serviceType': 'Marketing Services',
+      'provider': { '@id': 'https://www.keffinicreativestudio.com/#organization' },
+      'description': 'Market research, go-to-market plans, brand activations, outdoor advertising, event marketing, and promotions.',
     },
   ],
 }
@@ -145,7 +157,7 @@ export default function Home() {
       <SEO
         title="Branding, UI/UX & Software Development in Nairobi"
         description="We build business solutions that drive real growth — efficient, scalable, and profit-focused. Bespoke brand identity, UI/UX, software development, and digital marketing in Nairobi."
-        keywords="brand identity, UI/UX design, software development, creative agency Nairobi, web development Kenya, graphic design, social media marketing, Lipa Mdogo Mdogo"
+        keywords="brand identity, UI/UX design, software development, creative agency Nairobi, web development Kenya, graphic design, social media marketing, bulk printing Nairobi, uniform printing, large-format printing, brand activations, Lipa Mdogo Mdogo"
         canonicalPath="/"
         schema={HOME_SCHEMA}
       />
@@ -195,7 +207,7 @@ export default function Home() {
         <div className="home-section">
           <div className="home-sub--invert"><Subtitle variant="Light" uScxfp93T="(04)" dg_MYFFcN="Our Services" bvYUJxwf_="flex-start" /></div>
           <h2 className="home-display home-display--light">Services</h2>
-          <ServiceList variant={mobile ? 'Mobile' : tablet ? 'Tablet' : 'Desktop'} />
+          <ServicesList variant={mobile ? 'Mobile' : tablet ? 'Tablet' : 'Desktop'} />
         </div>
       </section>
 

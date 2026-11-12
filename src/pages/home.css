@@ -26,6 +26,9 @@
 .home-why__head { margin-bottom: 40px; }
 .home-why__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(16px, 2vw, 32px); }
 .home-services { background: var(--kc-burgundy); color: var(--kc-cream); }
+/* Extra service cards (05+) appended under the Framer ServiceList: same 12px gap and 24px side padding. */
+.kc-services__extra { display: flex; flex-direction: column; gap: 12px; padding: 12px 24px 0; }
+.kc-services__extra.is-mobile { padding: 12px 0 0; }
 .home-faq__head { margin-bottom: 40px; }
 .home-faq__list { display: flex; flex-direction: column; max-width: 900px; margin-left: auto; }
 .home-sub--invert { filter: invert(1); }
